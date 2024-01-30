@@ -3,6 +3,9 @@ import Hero from '../Hero'
 import Story from './Story';
 import Pledge from './Pledge';
 import Process from './Process';
+import Traditions from './Traditions';
+import Cta from './Cta';
+import GetInTouch from './GetInTouch';
 
 const description1 = `Experience Ocean Freshness,`;
 const description2 = `Handpicked by Noulamer`;
@@ -15,6 +18,9 @@ const Home = () => {
       <Story/>
       <Pledge/>
       <Process/>
+      <Traditions/>
+      <Cta/>
+      <GetInTouch/>
     </div>
   )
 }

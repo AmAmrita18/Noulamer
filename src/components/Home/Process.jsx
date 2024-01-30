@@ -10,7 +10,7 @@ const Process = () => {
             <div className='w-[80%]  max-w-[1300px] py-8 mx-auto'>
                 <div className='flex gap-16'>
                     <div className='relative w-[45%]'>
-                        <div className='absolute left-[-65px] bottom-[-100px]'>
+                        <div className='absolute left-[-65px] bottom-[-105px]'>
                             <img src={box} alt="" width={210} height={190} className='object-cover' />
                         </div>
                         <div className='absolute top-16  rounded-tl-[48px] '>
@@ -19,7 +19,7 @@ const Process = () => {
                     </div>
                     <div className='w-[55%] mt-32'>
                         <div className='flex gap-4 items-center '>
-                            <div className='w-4 h-4 bg-[#EF4030] '></div>
+                            <div className='w-3 h-3 bg-[#EF4030] '></div>
                             <h4 className='text-xl font-[600] text-[#0A385A]'>Harvested with Care, Served with Pride</h4>
                         </div>
                         <h1 className='py-4 text-[50px] leading-tight font-[600] text-[#0A385A]'>Our Sea-to-Service Process</h1>

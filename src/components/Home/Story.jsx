@@ -19,7 +19,7 @@ const Story = (button) => {
                     </div>
                     <div className='w-[50%] mt-40'>
                         <div className='flex gap-4 items-center '>
-                            <div className='w-4 h-4 bg-[#EF4030] '></div>
+                            <div className='w-3 h-3 bg-[#EF4030] '></div>
                             <h4 className='text-xl font-[600] text-[#0A385A]'>Mauritius&apos; Finest Sea Harvest</h4>
                         </div>
                         <h1 className='py-4 text-[50px] leading-tight font-[600] text-[#0A385A]'>Sea to Table Story</h1>
