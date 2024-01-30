@@ -4,15 +4,15 @@ import headerLogo from '../assets/logo.png'
 const Header = () => {
   return (
     <div className='w-full '>
-      <div className='flex justify-between items-center w-11/12 max-w-[1160px] py-4 mx-auto'>
+      <div className='flex justify-between items-center w-[80%] max-w-[1300px] px-4 py-8 mx-auto'>
        <div>
        <Link to="/">
-          <img src={headerLogo} alt='Logo' className='py-4' width={200} height={100} loading='lazy' />
+          <img src={headerLogo} alt='Logo' className='py-2 object-cover' width={110} height={45} loading='lazy' />
         </Link>
        </div>
 
         <nav>
-          <ul className='flex gap-x-6 text-[20px] font-[700] text-[#FFFFFF] leading-6'>
+          <ul className='flex gap-x-14 text-[17px] font-[700] text-[#FFFFFF] leading-6'>
             <li>
               <Link to="/">HOME</Link>
             </li>
