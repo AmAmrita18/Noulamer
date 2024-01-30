@@ -14,7 +14,7 @@ const Story = (button) => {
                             <img src={box} alt="" width={210} height={190} className='object-cover' />
                         </div>
                         <div className='absolute top-16  rounded-tl-[48px] '>
-                            <img src={home1} alt="" width={520} height={830} className=' object-cover border rounded-tl-3xl' />
+                            <img src={home1} alt="" width={520} height={830} className=' object-cover rounded-tl-3xl' />
                         </div>
                     </div>
                     <div className='w-[50%] mt-40'>
@@ -22,15 +22,15 @@ const Story = (button) => {
                             <div className='w-4 h-4 bg-[#EF4030] '></div>
                             <h4 className='text-xl font-[600] text-[#0A385A]'>Mauritius&apos; Finest Sea Harvest</h4>
                         </div>
-                        <h1 className='py-4 text-5xl font-[600] text-[#0A385A]'>Sea to Table Story</h1>
+                        <h1 className='py-4 text-[50px] leading-tight font-[600] text-[#0A385A]'>Sea to Table Story</h1>
                         <div className='flex flex-col gap-y-4'>
-                            <p className='text-[19px] font-[400] text-[#1E1E1E]'>
-                                Choosing the right source for your seafood is crucial for taste and quality. At Noulamer, we're not just a business; we&apos;re a tradition, deeply rooted in Mauritius since 1974. Our selection ranges across the freshest fish, shrimp, and more, all locally sourced.
+                            <p className='text-[19px] font-[400] text-[#1E1E1E] leading-tight'>
+                                Choosing the right source for your seafood is crucial for taste and quality. At Noulamer, we&apos;re not just a business; we&apos;re a tradition, deeply rooted in Mauritius since 1974. Our selection ranges across the freshest fish, shrimp, and more, all locally sourced.
                             </p>
-                            <p className='text-[19px] font-[400] text-[#1E1E1E]'>We&apos;ve nurtured strong relationships with local fishermen along the South Coast, ensuring that every product in our stall and in major retailers reflects our commitment to excellence. </p>
-                            <p className='text-[19px] font-[400] text-[#1E1E1E]'>Dive into our story and discover why every bite is a testament to our heritage and dedication.</p>
+                            <p className='text-[19px] font-[400] text-[#1E1E1E] leading-tight'>We&apos;ve nurtured strong relationships with local fishermen along the South Coast, ensuring that every product in our stall and in major retailers reflects our commitment to excellence. </p>
+                            <p className='text-[19px] font-[400] text-[#1E1E1E] leading-tight'>Dive into our story and discover why every bite is a testament to our heritage and dedication.</p>
                         </div>
-                        <Link className='text-[#FFFFFF] bg-[#0A385A] flex items-center gap-3 mt-8 px-8 w-[42.5%] py-5 rounded-full font-[600] text-[17px]'>Read About Us <GoArrowRight className='w-6 h-6' />
+                        <Link className='text-[#FFFFFF] bg-[#0A385A] flex items-center gap-3 mt-8 px-8 w-[41%] py-5 rounded-full font-[600] text-[17px]'>Read About Us <GoArrowRight className='w-6 h-6' />
                         </Link>
 
                     </div>
