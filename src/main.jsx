@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
+import Home from './components/Home/Home';
 import Layout from './Layout'
 
 const Root = () => (
