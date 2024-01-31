@@ -76,7 +76,7 @@ const Connect = () => {
               />
             </h1>
             <div className="flex justify-end">
-              <Link className="text-[#FFFFFF] bg-[#0A385A] transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75 w-[28%]  flex items-center  gap-3 mt-8 px-8  py-5 rounded-full font-[600] text-[17px]">
+              <Link className="text-[#FFFFFF] bg-[#0A385A] transition-all duration-700 ease-in-out  hover:scale-95  w-[28%]  flex items-center  gap-3 mt-8 px-8  py-5 rounded-full font-[600] text-[17px]">
                 Submit <GoArrowRight className="w-6 h-6" />
               </Link>
             </div>
