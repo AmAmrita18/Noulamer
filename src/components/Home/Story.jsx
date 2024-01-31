@@ -22,7 +22,7 @@ const Story = (button) => {
                             <div className='w-3 h-3 bg-[#EF4030] '></div>
                             <h4 className='text-xl font-[600] text-[#0A385A]'>Mauritius&apos; Finest Sea Harvest</h4>
                         </div>
-                        <h1 className='py-4 text-[50px] leading-tight font-[600] text-[#0A385A]'>Sea to Table Story</h1>
+                        <h1 className='py-4 text-[50px] leading-none font-[600] text-[#0A385A]'>Sea to Table Story</h1>
                         <div className='flex flex-col gap-y-4'>
                             <p className='text-[19px] font-[400] text-[#1E1E1E] leading-tight'>
                                 Choosing the right source for your seafood is crucial for taste and quality. At Noulamer, we&apos;re not just a business; we&apos;re a tradition, deeply rooted in Mauritius since 1974. Our selection ranges across the freshest fish, shrimp, and more, all locally sourced.

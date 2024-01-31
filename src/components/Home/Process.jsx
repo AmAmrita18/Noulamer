@@ -8,7 +8,7 @@ const Process = () => {
     return (
         <div className='w-full'>
             <div className='w-[80%]  max-w-[1200px] py-8 mx-auto'>
-                <div className='flex gap-16'>
+                <div className='flex gap-12'>
                     <div className='relative w-[45%]'>
                         <div className='absolute left-[-65px] bottom-[-50px]'>
                             <img src={box} alt="" width={210} height={190} className='object-cover' />
@@ -20,7 +20,7 @@ const Process = () => {
                     <div className='w-[55%] mt-32'>
                         <div className='flex gap-4 items-center '>
                             <div className='w-3 h-3 bg-[#EF4030] '></div>
-                            <h4 className='text-xl font-[600] text-[#0A385A]'>Harvested with Care, Served with Pride</h4>
+                            <h4 className='text-xl font-[600] leading-none text-[#0A385A]'>Harvested with Care, Served with Pride</h4>
                         </div>
                         <h1 className='py-4 text-[50px] leading-tight font-[600] text-[#0A385A]'>Our Sea-to-Service Process</h1>
                         <div className='flex flex-col gap-y-4'>

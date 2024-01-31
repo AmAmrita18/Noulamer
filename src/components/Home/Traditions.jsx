@@ -14,7 +14,7 @@ const Traditions = () => {
                             <div className='w-3 h-3 bg-[#EF4030] '></div>
                             <h4 className='text-xl font-[600] text-[#0A385A]'>Noulamer&apos;s Signature Selection</h4>
                         </div>
-                        <h1 className='py-4 text-[50px] leading-tight font-[600] text-[#0A385A]'>A Modern Twist
+                        <h1 className='py-4 text-[50px] leading-none pr-10 font-[600] text-[#0A385A]'>A Modern Twist
                             on Ocean Traditions</h1>
                         <div className='flex flex-col gap-y-4'>
                             <p className='text-[19px] font-[400] text-[#1E1E1E] leading-tight'>
