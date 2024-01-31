@@ -6,6 +6,8 @@ import Process from './Process';
 import Traditions from './Traditions';
 import Cta from './Cta';
 import GetInTouch from './GetInTouch';
+import Connect from './Connect';
+
 
 const description1 = `Experience Ocean Freshness,`;
 const description2 = `Handpicked by Noulamer`;
@@ -21,6 +23,7 @@ const Home = () => {
       <Traditions/>
       <Cta/>
       <GetInTouch/>
+      <Connect/>
     </div>
   )
 }

@@ -27,7 +27,7 @@ const Process = () => {
                             <p className='text-[19px] font-[400] text-[#1E1E1E] leading-tight'>
                                 Step into the world of Noulamer and witness the meticulous journey of our seafood. From the pristine waters along the South Coast, through our state-of-the-art processing facilities, to your plate, we ensure every scale and shell meets our rigorous standards.
                             </p>
-                            <p className='text-[19px] font-[400] text-[#1E1E1E] leading-tight'>Our facilities are designed to maintain the ocean's freshness, featuring:</p>
+                            <p className='text-[19px] font-[400] text-[#1E1E1E] leading-tight'>Our facilities are designed to maintain the ocean&apos;s freshness, featuring:</p>
                         </div>
                         <ul className='flex gap-x-8 mt-8'>
                             <div className='flex flex-col gap-y-4 justify-between'>
