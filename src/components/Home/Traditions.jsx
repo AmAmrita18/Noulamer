@@ -26,7 +26,7 @@ const Traditions = () => {
 
                     </div>
                     <div className='relative w-[50%]'>
-                        <div className='absolute right-[-55px] bottom-[-140px]'>
+                        <div className='absolute right-[-55px] bottom-[-160px]'>
                             <img src={box} alt="" width={210} height={190} className='object-cover' />
                         </div>
                         <div className='absolute top-6  rounded-tl-[48px] '>
