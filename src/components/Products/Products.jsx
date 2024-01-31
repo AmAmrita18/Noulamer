@@ -5,10 +5,10 @@ import GetInTouch from '../Home/GetInTouch';
 import Connect from '../Home/Connect';
 import Selection from './Selection';
 
-const description1 = `Noulamer's Story: Sea,`;
-const description2 = `Savoir-faire, and Sustainability`;
+const description1 = `Delve into the Depths of Flavor`;
+const description2 = `with Noulamer's Seafood Selection`;
 const button = {title: `Explore Now`, url: `/about`};
-const heroImage = `/heroAbout.png`
+const heroImage = `/product.png`
 
 
 const Products = () => {
