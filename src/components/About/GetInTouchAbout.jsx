@@ -5,11 +5,9 @@ import { IoCallOutline } from "react-icons/io5";
 import { IoMailOutline } from "react-icons/io5";
 
 import { IoLocationOutline } from "react-icons/io5";
-
-
-const GetInTouch = () => {
-    return (
-        <div className='w-full'>
+const GetInTouchAbout = () => {
+  return (
+    <div className='w-full'>
             <div className='w-[80%]  max-w-[1300px] pt-8 pb-24 my-12 mx-auto'>
                 <div className='flex gap-16'>
                     <div className='relative w-[55%]'>
@@ -62,7 +60,7 @@ const GetInTouch = () => {
                 </div>
             </div>
         </div>
-    )
+  )
 }
 
-export default GetInTouch
+export default GetInTouchAbout

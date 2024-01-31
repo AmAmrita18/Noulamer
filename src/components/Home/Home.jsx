@@ -9,6 +9,7 @@ import GetInTouch from './GetInTouch';
 import Connect from './Connect';
 
 
+
 const description1 = `Experience Ocean Freshness,`;
 const description2 = `Handpicked by Noulamer`;
 const button = {title: `Explore Now`, url: `#`};
@@ -24,6 +25,7 @@ const Home = () => {
       <Cta/>
       <GetInTouch/>
       <Connect/>
+      
     </div>
   )
 }

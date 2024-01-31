@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { GoArrowRight } from "react-icons/go";
 import ctaImage from '/Cta.png'
+
 const Cta = () => {
     return (
         <div className='w-full h-screen' style={{ backgroundImage: `url('${ctaImage}')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', objectFit: 'cover' }}>

@@ -1,3 +1,4 @@
+import Copyright from './components/Copyright';
 import Footer from './components/Footer';
 import { Outlet } from 'react-router-dom';
 
@@ -6,6 +7,7 @@ const Layout = () => {
     <>
         <Outlet />
         <Footer />
+        <Copyright/>
     </>
   )
 }
