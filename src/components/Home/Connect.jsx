@@ -30,13 +30,17 @@ const Connect = () => {
               <h1 className="text-[#FFFFFF] w-[250px] border-b border-[#F2F2F2] text-[19px] font-[500]">
                 <input
                   type="text"
+                  id="name"
+                  name="name"
                   placeholder="Your Name"
                   className="bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
                 />
               </h1>
               <h1 className="text-[#FFFFFF] w-[250px] border-b border-[#F2F2F2] text-[20px] font-[500]">
                 <input
-                  type="text"
+                  type="email"
+                  id="email"
+                  name="email"
                   placeholder="Your Email"
                   className="bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
                 />
@@ -45,7 +49,9 @@ const Connect = () => {
             <div className="flex gap-x-[1rem]">
               <h1 className="text-[#FFFFFF] w-[250px] border-b border-[#F2F2F2] text-[19px] font-[500]">
                 <input
-                  type="text"
+                  type="tel"
+                  id="number"
+                  name="number"
                   placeholder="Phone Number"
                   className="bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
                 />
@@ -53,6 +59,8 @@ const Connect = () => {
               <h1 className="text-[#FFFFFF] w-[250px] border-b border-[#F2F2F2] text-[19px] font-[500]">
                 <input
                   type="text"
+                  id="interest"
+                  name="interest"
                   placeholder="Interested In"
                   className="bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
                 />
@@ -61,6 +69,8 @@ const Connect = () => {
             <h1 className="text-[#FFFFFF] border-b pb-4 border-[#F2F2F2] text-[19px] font-[500]">
               <input
                 type="text"
+                id="message"
+                name="message"
                 placeholder="Message"
                 className="bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
               />
