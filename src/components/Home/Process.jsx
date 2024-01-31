@@ -7,10 +7,10 @@ import { FaCheck } from "react-icons/fa6";
 const Process = () => {
     return (
         <div className='w-full'>
-            <div className='w-[80%]  max-w-[1300px] py-8 mx-auto'>
+            <div className='w-[80%]  max-w-[1200px] py-8 mx-auto'>
                 <div className='flex gap-16'>
                     <div className='relative w-[45%]'>
-                        <div className='absolute left-[-65px] bottom-[-105px]'>
+                        <div className='absolute left-[-65px] bottom-[-50px]'>
                             <img src={box} alt="" width={210} height={190} className='object-cover' />
                         </div>
                         <div className='absolute top-16  rounded-tl-[48px] '>

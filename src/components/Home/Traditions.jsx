@@ -6,7 +6,7 @@ import home3 from '../../assets/home3.jpg'
 const Traditions = () => {
     return (
         <div className='w-full'>
-            <div className='w-[80%]  max-w-[1300px] pt-8 pb-24 my-20 mx-auto'>
+            <div className='w-[80%]  max-w-[1200px] pt-8 pb-24 my-20 mx-auto'>
                 <div className='flex gap-44'>
 
                     <div className='w-[50%] mt-28'>
@@ -26,7 +26,7 @@ const Traditions = () => {
 
                     </div>
                     <div className='relative w-[50%]'>
-                        <div className='absolute right-[-45px] bottom-[-130px]'>
+                        <div className='absolute right-[-55px] bottom-[-140px]'>
                             <img src={box} alt="" width={210} height={190} className='object-cover' />
                         </div>
                         <div className='absolute top-6  rounded-tl-[48px] '>

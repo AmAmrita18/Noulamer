@@ -4,7 +4,7 @@ import headerLogo from '../assets/logo.png'
 const Header = () => {
   return (
     <div className='w-full '>
-      <div className='flex justify-between items-center w-[80%] max-w-[1300px] px-4 py-8 mx-auto'>
+      <div className='flex justify-between items-center w-[80%] max-w-[1200px] px-4 py-8 mx-auto'>
        <div>
        <Link to="/">
           <img src={headerLogo} alt='Logo' className='py-2 object-cover' width={110} height={45} loading='lazy' />

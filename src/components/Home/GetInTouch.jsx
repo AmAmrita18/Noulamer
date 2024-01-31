@@ -10,10 +10,10 @@ import { IoLocationOutline } from "react-icons/io5";
 const GetInTouch = () => {
     return (
         <div className='w-full'>
-            <div className='w-[80%]  max-w-[1300px] pt-8 pb-24 my-12 mx-auto'>
+            <div className='w-[80%]  max-w-[1200px] pt-8 pb-24 my-12 mx-auto'>
                 <div className='flex gap-16'>
                     <div className='relative w-[55%]'>
-                        <div className='absolute left-[-65px] bottom-[-80px]'>
+                        <div className='absolute left-[-65px] bottom-[-85px]'>
                             <img src={box} alt="" width={210} height={190} className='object-cover' />
                         </div>
                         <div className='absolute top-16  rounded-tl-[48px] '>

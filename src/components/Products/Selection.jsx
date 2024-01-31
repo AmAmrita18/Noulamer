@@ -6,7 +6,7 @@ import product3 from '../../assets/product3.png';
 const Selection = () => {
   return (
     <div className='w-full'>
-            <div className='w-[80%]  max-w-[1300px] pt-8 py-8 mx-auto'>
+            <div className='w-[80%]  max-w-[1200px] pt-8 py-8 mx-auto'>
                 <div className='flex flex-col items-center justify-center mt-24'>
                     <div className='flex gap-4 items-center '>
                         <div className='w-3 h-3 bg-[#EF4030] '></div>

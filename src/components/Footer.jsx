@@ -7,7 +7,7 @@ import { IoLogoInstagram } from "react-icons/io5";
 const Footer = () => {
   return (
     <div className='w-full '>
-      <div className='w-[80%] max-w-[1300px] px-4 py-8 mx-auto'>
+      <div className='w-[80%] max-w-[1200px] px-4 py-8 mx-auto'>
         <div className='flex justify-between border-b border-[#212828] py-20 items-center  '>
           <ul className='flex gap-x-14 text-[17px] font-[500] text-[#0A385A] leading-6'>
             <li>

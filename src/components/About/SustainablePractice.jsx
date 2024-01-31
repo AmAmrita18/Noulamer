@@ -5,10 +5,10 @@ import about2 from '../../assets/About1.jpg'
 const SustainablePractice = () => {
     return (
         <div className='w-full'>
-            <div className='w-[80%]  max-w-[1300px] py-8 mb-40 my-20 mx-auto'>
+            <div className='w-[80%]  max-w-[1200px] py-8 mb-40 my-20 mx-auto'>
                 <div className='flex gap-44'>
                 <div className='relative w-[50%]'>
-                        <div className='absolute left-[-70px]'>
+                        <div className='absolute left-[-65px]'>
                             <img src={box} alt="" width={210} height={190} className='object-cover' />
                         </div>
                         <div className='absolute top-16   '>

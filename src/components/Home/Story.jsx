@@ -7,10 +7,10 @@ import { GoArrowRight } from "react-icons/go";
 const Story = (button) => {
     return (
         <div className='w-full'>
-            <div className='w-[80%]  max-w-[1300px] py-8 my-20 mx-auto'>
+            <div className='w-[80%]  max-w-[1200px] py-8 my-20 mx-auto'>
                 <div className='flex gap-44'>
                     <div className='relative w-[50%]'>
-                        <div className='absolute left-[-70px]'>
+                        <div className='absolute left-[-65px]'>
                             <img src={box} alt="" width={210} height={190} className='object-cover' />
                         </div>
                         <div className='absolute top-16  rounded-tl-[48px] '>
@@ -30,7 +30,7 @@ const Story = (button) => {
                             <p className='text-[19px] font-[400] text-[#1E1E1E] leading-tight'>We&apos;ve nurtured strong relationships with local fishermen along the South Coast, ensuring that every product in our stall and in major retailers reflects our commitment to excellence. </p>
                             <p className='text-[19px] font-[400] text-[#1E1E1E] leading-tight'>Dive into our story and discover why every bite is a testament to our heritage and dedication.</p>
                         </div>
-                        <Link className='text-[#FFFFFF] bg-[#0A385A] flex items-center gap-3 mt-8 px-8 w-[41%] py-5 rounded-full font-[600] text-[17px]'>Read About Us <GoArrowRight className='w-6 h-6' />
+                        <Link className='text-[#FFFFFF] bg-[#0A385A] flex items-center gap-3 mt-8 px-8 w-[42%] py-5 rounded-full font-[600] text-[17px]'>Read About Us <GoArrowRight className='w-6 h-6' />
                         </Link>
 
                     </div>

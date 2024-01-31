@@ -3,7 +3,7 @@ import React from 'react'
 const Pledge = () => {
     return (
         <div className='w-full'>
-            <div className='w-[80%]  max-w-[1300px] pt-8 py-2 my-20 mx-auto'>
+            <div className='w-[80%]  max-w-[1200px] pt-8 py-2 my-20 mx-auto'>
                 <div className='flex flex-col items-center justify-center mt-32'>
                     <div className='flex gap-4 items-center '>
                         <div className='w-3 h-3 bg-[#EF4030] '></div>

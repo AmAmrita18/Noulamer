@@ -7,7 +7,7 @@ const Connect = () => {
     return (
         <div className='w-full h-[570px]' style={{ backgroundImage: `url('${connectImg}')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', objectFit: 'cover' }}>
             <div className='w-full flex '>
-                <div className='w-[80%] h-full px-4 py-28 gap-72  mx-auto max-w-[1300px] flex '>
+                <div className='w-[80%] h-full px-4 py-28 gap-72  mx-auto max-w-[1200px] flex '>
                     <div className='w-[45%] flex flex-col justify-center gap-6'>
                         <h1 className='text-5xl leading-tight  text-[#FFFFFF] font-[700]'>Connect with Noulamer</h1>
                         <p className='text-[#FFFFFF] text-[24px] font-[400] leading-relaxed'>We&apos;re eager to hear from you. Fill out the form below and let&apos;s set sail on your seafood journey.</p>
