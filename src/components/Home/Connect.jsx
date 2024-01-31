@@ -31,14 +31,14 @@ const Connect = () => {
                 <input
                   type="text"
                   placeholder="Your Name"
-                  className="bg-transparent placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
+                  className="bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
                 />
               </h1>
               <h1 className="text-[#FFFFFF] w-[250px] border-b border-[#F2F2F2] text-[20px] font-[500]">
                 <input
                   type="text"
                   placeholder="Your Email"
-                  className="bg-transparent placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
+                  className="bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
                 />
               </h1>
             </div>
@@ -47,14 +47,14 @@ const Connect = () => {
                 <input
                   type="text"
                   placeholder="Phone Number"
-                  className="bg-transparent placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
+                  className="bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
                 />
               </h1>
               <h1 className="text-[#FFFFFF] w-[250px] border-b border-[#F2F2F2] text-[19px] font-[500]">
                 <input
                   type="text"
                   placeholder="Interested In"
-                  className="bg-transparent placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
+                  className="bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
                 />
               </h1>
             </div>
@@ -62,11 +62,11 @@ const Connect = () => {
               <input
                 type="text"
                 placeholder="Message"
-                className="bg-transparent placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
+                className="bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
               />
             </h1>
             <div className="flex justify-end">
-              <Link className="text-[#FFFFFF] bg-[#0A385A] w-[28%]  flex items-center  gap-3 mt-8 px-8  py-5 rounded-full font-[600] text-[17px]">
+              <Link className="text-[#FFFFFF] bg-[#0A385A] transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75 w-[28%]  flex items-center  gap-3 mt-8 px-8  py-5 rounded-full font-[600] text-[17px]">
                 Submit <GoArrowRight className="w-6 h-6" />
               </Link>
             </div>
