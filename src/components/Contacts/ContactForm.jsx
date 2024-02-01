@@ -8,8 +8,8 @@ import { IoLogoInstagram } from "react-icons/io5";
 const ContactForm = () => {
   return (
     <div className="w-full">
-      <div className="w-[80%] max-w-[1200px] px-4 py-32  mx-auto">
-        <div className="flex flex-col w-[45%] py-12  px-16 rounded-2xl bg-[#0A385A]">
+      <div className="w-[80%] max-w-[1200px] px-4 py-40  mx-auto">
+        <div className="flex flex-col w-[44%] py-12  px-16 rounded-2xl bg-[#0A385A]">
           <div className="flex flex-col">
             <h1 className="py-4 text-[50px] font-[600] leading-tight text-[#FFFFFF] ">Contact</h1>
             <p className="text-xl font-[400] py-2 text-[#C9C9C9]">Say something to start live chat!</p>
@@ -51,7 +51,7 @@ const ContactForm = () => {
           </div>
         </div>
 
-        <div className="flex flex-col w-[55%]"></div>
+        <div className="flex flex-col w-[56%]"></div>
       </div>
     </div>
   );
