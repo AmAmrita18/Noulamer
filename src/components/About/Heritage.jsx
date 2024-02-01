@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import box from "../../assets/box.png";
 import about1 from "../../assets/About2.jpg";
