@@ -27,7 +27,7 @@ const Connect = () => {
           </div>
           <div className="w-[55%] flex flex-col gap-y-10">
             <div className="flex gap-x-[1rem]">
-              <h1 className="text-[#FFFFFF] w-[250px] border-b border-[#F2F2F2] text-[19px] font-[500]">
+              <h1 className="text-[#FFFFFF] w-[250px] border-b border-[#F2F2F2] text-[20px] font-[500]">
                 <input
                   type="text"
                   id="name"
@@ -47,7 +47,7 @@ const Connect = () => {
               </h1>
             </div>
             <div className="flex gap-x-[1rem]">
-              <h1 className="text-[#FFFFFF] w-[250px] border-b border-[#F2F2F2] text-[19px] font-[500]">
+              <h1 className="text-[#FFFFFF] w-[250px] border-b border-[#F2F2F2] text-[20px] font-[500]">
                 <input
                   type="tel"
                   id="number"
@@ -56,7 +56,7 @@ const Connect = () => {
                   className="bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
                 />
               </h1>
-              <h1 className="text-[#FFFFFF] w-[250px] border-b border-[#F2F2F2] text-[19px] font-[500]">
+              <h1 className="text-[#FFFFFF] w-[250px] border-b border-[#F2F2F2] text-[20px] font-[500]">
                 <input
                   type="text"
                   id="interest"
@@ -66,7 +66,7 @@ const Connect = () => {
                 />
               </h1>
             </div>
-            <h1 className="text-[#FFFFFF] border-b pb-4 border-[#F2F2F2] text-[19px] font-[500]">
+            <h1 className="text-[#FFFFFF] border-b pb-4 border-[#F2F2F2] text-[20px] font-[500]">
               <input
                 type="text"
                 id="message"
