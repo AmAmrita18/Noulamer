@@ -5,13 +5,13 @@ import { FaLocationDot } from "react-icons/fa6";
 import { TiSocialFacebook } from "react-icons/ti";
 import { IoLogoInstagram } from "react-icons/io5";
 
-
-
 const ContactForm = () => {
   return (
     <div className="w-full">
-      <div className="w-[80%] max-w-[1200px]  f#0A385A px-4 py-40  mx-auto">
-        <div className="flex flex-row">
+      <div
+        className="w-[80%] max-w-[1200px]  px-4 py-40  mx-auto"
+      >
+        <div className="flex rounded-2xl   shadow-2xl drop-shadow-2xl flex-row">
           <div className="flex flex-col w-[44%] py-12  px-16 rounded-2xl bg-[#0A385A]">
             <div className="flex flex-col">
               <h1 className="py-4 text-[50px] font-[600] leading-tight text-[#FFFFFF] ">
@@ -57,7 +57,7 @@ const ContactForm = () => {
               </div>
             </div>
           </div>
-          <div className="w-[56%] flex flex-col gap-y-10 py-32 px-12">
+          <div className="w-[56%] flex flex-col  gap-y-10 py-32 px-12">
             <div className="flex gap-x-16">
               <h1 className="text-[#0A385A] w-[250px] border-b border-[#8D8D8D] text-[20px] font-[400]">
                 <input
@@ -109,36 +109,35 @@ const ContactForm = () => {
                       type="radio"
                       id="generalinquiry"
                       name="generalinquiry"
+                      className="mr-3"
+                    />
+
+                    <label htmlFor="generalinquiry">General Inquiry</label>
+                  </li>
+                  <li className="text-[#0A385A] flex items-baseline text-[16px] font-[400]">
+                    <input
+                      type="radio"
+                      id="generalinquiry"
+                      name="generalinquiry"
+                      className="mr-3"
+                    />
+                    <label htmlFor="generalinquiry">General Inquiry</label>
+                  </li>
+                  <li className="text-[#0A385A] flex items-baseline text-[16px] font-[400]">
+                    <input
+                      type="radio"
+                      id="generalinquiry"
+                      name="generalinquiry"
+                      className="mr-3"
+                    />
+                    <label htmlFor="generalinquiry">General Inquiry</label>
+                  </li>
+                  <li className="text-[#0A385A] flex items-baseline text-[16px] font-[400]">
+                    <input
+                      type="radio"
+                      id="generalinquiry"
+                      name="generalinquiry"
                       className="mr-3 "
-                    />
-                  
-                    <label htmlFor="generalinquiry" >General Inquiry</label>
-                    
-                  </li>
-                  <li className="text-[#0A385A] flex items-baseline text-[16px] font-[400]">
-                    <input
-                      type="radio"
-                      id="generalinquiry"
-                      name="generalinquiry"
-                      className="mr-3"
-                    />
-                    <label htmlFor="generalinquiry">General Inquiry</label>
-                  </li>
-                  <li className="text-[#0A385A] flex items-baseline text-[16px] font-[400]">
-                    <input
-                      type="radio"
-                      id="generalinquiry"
-                      name="generalinquiry"
-                      className="mr-3"
-                    />
-                    <label htmlFor="generalinquiry">General Inquiry</label>
-                  </li>
-                  <li className="text-[#0A385A] flex items-baseline text-[16px] font-[400]">
-                    <input
-                      type="radio"
-                      id="generalinquiry"
-                      name="generalinquiry"
-                      className="mr-3"
                     />
                     <label htmlFor="generalinquiry">General Inquiry</label>
                   </li>
