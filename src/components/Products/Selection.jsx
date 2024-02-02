@@ -25,7 +25,7 @@ const Selection = () => {
           <div className="relative cursor-pointer   transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
             <img
               src={product1}
-              width={380}
+              width={390}
               height={480}
               className="object-cover"
               alt=""
@@ -38,7 +38,7 @@ const Selection = () => {
           <div className="relative cursor-pointer transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
             <img
               src={product2}
-              width={380}
+              width={390}
               height={480}
               className="object-cover"
               alt=""
@@ -51,7 +51,7 @@ const Selection = () => {
           <div className="relative cursor-pointer  transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
             <img
               src={product3}
-              width={380}
+              width={390}
               height={480}
               className="object-cover"
               alt=""
@@ -66,7 +66,7 @@ const Selection = () => {
           <div className="relative cursor-pointer transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
             <img
               src={product3}
-              width={380}
+              width={390}
               height={480}
               className="object-cover"
               alt=""
@@ -81,7 +81,7 @@ const Selection = () => {
           <div className="relative cursor-pointer transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
             <img
               src={product2}
-              width={380}
+              width={390}
               height={480}
               className="object-cover"
               alt=""
@@ -94,7 +94,7 @@ const Selection = () => {
           <div className="relative cursor-pointer transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
             <img
               src={product1}
-              width={380}
+              width={390}
               height={480}
               className="object-cover"
               alt=""
@@ -107,7 +107,7 @@ const Selection = () => {
           <div className="relative cursor-pointer transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
             <img
               src={product2}
-              width={380}
+              width={390}
               height={480}
               className="object-cover"
               alt=""
@@ -120,7 +120,7 @@ const Selection = () => {
           <div className="relative cursor-pointer transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
             <img
               src={product1}
-              width={380}
+              width={390}
               height={480}
               className="object-cover"
               alt=""
@@ -133,7 +133,7 @@ const Selection = () => {
           <div className="relative cursor-pointer transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
             <img
               src={product3}
-              width={380}
+              width={390}
               height={480}
               className="object-cover"
               alt=""
