@@ -15,7 +15,7 @@ const Connect = () => {
       }}
     >
       <div className="w-full flex ">
-        <div className="w-[80%] h-full px-4 py-28 gap-72  mx-auto max-w-[1200px] flex ">
+        <div className="w-[80%] h-full px-4 py-28 gap-64  mx-auto max-w-[1200px] flex ">
           <div className="w-[45%] flex flex-col justify-center gap-6">
             <h1 className="text-5xl leading-tight  text-[#FFFFFF] font-[700]">
               Connect with Noulamer
