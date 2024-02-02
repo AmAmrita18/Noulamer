@@ -22,7 +22,7 @@ const Selection = () => {
 
         
         <div className="grid grid-cols-3 gap-4 gap-y-20 mt-40">
-          <div className="relative cursor-pointer transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
+          <div className="relative cursor-pointer   transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
             <img
               src={product1}
               width={380}
@@ -31,7 +31,7 @@ const Selection = () => {
               alt=""
               loading="lazy"
             />
-            <div className="absolute bottom-0  w-[380px] h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
+            <div className="absolute bottom-0 w-full   h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
               <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">Trout</h1>
             </div>
           </div>
@@ -44,7 +44,7 @@ const Selection = () => {
               alt=""
               loading="lazy"
             />
-            <div className="absolute bottom-0  w-[380px] h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
+            <div className="absolute bottom-0  w-full h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
               <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">Tuna</h1>
             </div>
           </div>
@@ -57,7 +57,7 @@ const Selection = () => {
               alt=""
               loading="lazy"
             />
-            <div className="absolute bottom-0  w-[380px] h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
+            <div className="absolute bottom-0  w-full h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
               <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">
                 Tilapia
               </h1>
@@ -72,7 +72,7 @@ const Selection = () => {
               alt=""
               loading="lazy"
             />
-            <div className="absolute bottom-0  w-[380px] h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
+            <div className="absolute bottom-0  w-full h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
               <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">
                 Tilapia
               </h1>
@@ -87,7 +87,7 @@ const Selection = () => {
               alt=""
               loading="lazy"
             />
-            <div className="absolute bottom-0  w-[380px] h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
+            <div className="absolute bottom-0  w-full h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
               <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">Trout</h1>
             </div>
           </div>
@@ -100,7 +100,7 @@ const Selection = () => {
               alt=""
               loading="lazy"
             />
-            <div className="absolute bottom-0  w-[380px] h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
+            <div className="absolute bottom-0  w-full h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
               <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">Tuna</h1>
             </div>
           </div>
@@ -113,7 +113,7 @@ const Selection = () => {
               alt=""
               loading="lazy"
             />
-            <div className="absolute bottom-0  w-[380px] h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
+            <div className="absolute bottom-0  w-full h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
               <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">Tuna</h1>
             </div>
           </div>
@@ -126,7 +126,7 @@ const Selection = () => {
               alt=""
               loading="lazy"
             />
-            <div className="absolute bottom-0  w-[380px] h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
+            <div className="absolute bottom-0  w-full h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
               <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">Trout</h1>
             </div>
           </div>
@@ -139,7 +139,7 @@ const Selection = () => {
               alt=""
               loading="lazy"
             />
-            <div className="absolute bottom-0  w-[380px] h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
+            <div className="absolute bottom-0  w-full h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
               <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">
                 Tilapia
               </h1>
