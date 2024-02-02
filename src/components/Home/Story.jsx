@@ -9,18 +9,19 @@ const Story = (button) => {
     <div className="w-full">
       <div className="w-[80%]  max-w-[1200px] py-8 my-20 mx-auto">
         <div className="flex gap-44">
-          <div className="relative w-[50%]">
-            <div className="absolute left-[-65px]">
-              <img
-                src={box}
-                alt=""
-                width={210}
-                height={190}
-                className="object-cover"
-                loading="lazy"
-              />
-            </div>
-            <div className="absolute top-16  rounded-tl-[48px] ">
+          <div className=" w-[50%]">
+            <div className="relative top-16  rounded-tl-[48px] ">
+              <div className="absolute -z-10 left-[-65px] top-[-65px]">
+                <img
+                  src={box}
+                  alt=""
+                  width={210}
+                  height={190}
+                  className="object-cover"
+                  loading="lazy"
+                />
+              </div>
+              <div>
               <img
                 src={home1}
                 alt=""
@@ -29,6 +30,7 @@ const Story = (button) => {
                 className=" object-cover rounded-tl-3xl"
                 loading="lazy"
               />
+              </div>
             </div>
           </div>
           <div className="w-[50%] mt-40">
@@ -59,11 +61,10 @@ const Story = (button) => {
                 to our heritage and dedication.
               </p>
             </div>
-           
-           <Link className="text-[#FFFFFF] w-[220px] bg-[#0A385A] transition-all duration-700 ease-in-out hover:scale-95  flex items-center gap-3 mt-8 px-8 py-5 rounded-full font-[600] text-[17px]">
+
+            <Link className="text-[#FFFFFF] w-[220px] bg-[#0A385A] transition-all duration-700 ease-in-out hover:scale-95  flex items-center gap-3 mt-8 px-8 py-5 rounded-full font-[600] text-[17px]">
               Read About Us <GoArrowRight className="w-6 h-6" />
             </Link>
-           
           </div>
         </div>
       </div>

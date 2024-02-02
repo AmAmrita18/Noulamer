@@ -7,8 +7,10 @@ const SustainablePractice = () => {
     <div className="w-full">
       <div className="w-[80%]  max-w-[1200px] py-8 mb-40 my-20 mx-auto">
         <div className="flex gap-44">
-          <div className="relative w-[50%]">
-            <div className="absolute left-[-65px]">
+          <div className=" w-[50%]">
+            
+            <div className="relative top-16   ">
+            <div className="absolute -z-10 top-[-65px] left-[-65px]">
               <img
                 src={box}
                 alt=""
@@ -18,7 +20,6 @@ const SustainablePractice = () => {
                 loading="lazy"
               />
             </div>
-            <div className="absolute top-16   ">
               <img
                 src={about2}
                 alt=""

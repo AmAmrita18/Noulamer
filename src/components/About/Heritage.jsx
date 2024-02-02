@@ -42,8 +42,10 @@ const Heritage = () => {
               Read About Us <GoArrowRight className="w-6 h-6" />
             </Link>
           </div>
-          <div className="relative w-[50%]">
-            <div className="absolute right-[-70px]">
+          <div className=" w-[50%]">
+            
+            <div className="relative top-16   ">
+            <div className="absolute -z-10 top-[-65px] right-[-70px]">
               <img
                 src={box}
                 alt=""
@@ -53,7 +55,7 @@ const Heritage = () => {
                 loading="lazy"
               />
             </div>
-            <div className="absolute top-16   ">
+              <div>
               <img
                 src={about1}
                 alt=""
@@ -62,6 +64,7 @@ const Heritage = () => {
                 className=" object-cover rounded-tr-3xl"
                 loading="lazy"
               />
+              </div>
             </div>
           </div>
         </div>

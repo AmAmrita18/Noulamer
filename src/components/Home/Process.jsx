@@ -6,31 +6,33 @@ import { FaCheck } from "react-icons/fa6";
 const Process = () => {
   return (
     <div className="w-full">
-      <div className="w-[80%]  max-w-[1200px] py-8 mx-auto">
-        <div className="flex gap-12">
-          <div className="relative w-[45%]">
-            <div className="absolute left-[-65px] bottom-[-112px]">
-              <img
-                src={box}
-                alt=""
-                width={210}
-                height={190}
-                className="object-cover"
-                loading="lazy"
-              />
-            </div>
-            <div className="absolute top-16  rounded-tl-[48px] ">
-              <img
-                src={home2}
-                alt=""
-                width={460}
-                height={680}
-                className=" object-cover  rounded-tl-3xl"
-                loading="lazy"
-              />
+      <div className="w-[80%]  max-w-[1200px] py-16 mx-auto">
+        <div className="flex gap-16 ">
+          <div className=" w-[40%]">
+            <div className="relative rounded-bl-[48px] ">
+              <div className="absolute -z-10 left-[-65px] bottom-[-60px]">
+                <img
+                  src={box}
+                  alt=""
+                  width={210}
+                  height={190}
+                  className="object-cover"
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <img
+                  src={home2}
+                  alt=""
+                  width={460}
+                  height={700}
+                  className=" object-cover rounded-bl-3xl"
+                  loading="lazy"
+                />
+              </div>
             </div>
           </div>
-          <div className="w-[55%] mt-32">
+          <div className="w-[60%] ml-8 mt-20">
             <div className="flex gap-4 items-center ">
               <div className="w-3 h-3 bg-[#EF4030] "></div>
               <h4 className="text-xl font-[600] leading-none text-[#0A385A]">

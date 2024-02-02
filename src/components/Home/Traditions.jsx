@@ -41,8 +41,10 @@ const Traditions = () => {
               </p>
             </div>
           </div>
-          <div className="relative w-[50%]">
-            <div className="absolute right-[-55px] bottom-[-160px]">
+          <div className=" w-[50%]">
+           
+            <div className="relative  rounded-tl-[48px] ">
+            <div className="absolute -z-10 right-[-55px] bottom-[-60px]">
               <img
                 src={box}
                 alt=""
@@ -52,8 +54,8 @@ const Traditions = () => {
                 loading="lazy"
               />
             </div>
-            <div className="absolute top-6  rounded-tl-[48px] ">
-              <img
+             <div>
+             <img
                 src={home3}
                 alt=""
                 width={500}
@@ -61,6 +63,7 @@ const Traditions = () => {
                 className=" object-cover rounded-br-3xl"
                 loading="lazy"
               />
+             </div>
             </div>
           </div>
         </div>
