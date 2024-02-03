@@ -11,9 +11,9 @@ const GetInTouch = () => {
     <div className="w-full">
       <div className="w-[80%]  max-w-[1200px] pt-8 pb-24 my-12 mx-auto">
         <div className="flex md:flex-row flex-col lg:gap-22 md:gap-12 gap-3">
-          <div className=" md:w-[44%] w-full md:px-0 px-4">
+          <div className=" md:w-[44%] w-full md:px-0 px-6 md:mb-0 mb-8">
             <div className="relative  top-16  rounded-tl-[48px] ">
-              <div className="absolute -z-10 left-[-65px] bottom-[-65px]">
+              <div className="absolute -z-10 md:left-[-65px] md:bottom-[-65px] left-[-50px] bottom-[-50px]">
                 <img
                   src={box}
                   alt=""
@@ -35,7 +35,7 @@ const GetInTouch = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-[56%] w-full md:px-0 px-4 mt-24">
+          <div className="md:w-[56%] w-full md:px-0 px-6 mt-24">
             <div className="flex gap-4 items-center ">
               <div className="w-3 h-3 bg-[#EF4030] "></div>
               <h4 className="text-xl font-[600] text-[#0A385A]">

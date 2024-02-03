@@ -15,7 +15,7 @@ const Cta = () => {
       }}
     >
       <div className="w-[80%] h-full mx-auto max-w-[1200px] flex flex-col justify-center items-center">
-        <h1 className="text-7xl leading-tight mt-24 text-[#FFFFFF] font-[600]">
+        <h1 className="lg:text-7xl md:text-6xl text-5xl leading-tight text-center mt-24 text-[#FFFFFF] font-[600]">
           View our Products
         </h1>
 

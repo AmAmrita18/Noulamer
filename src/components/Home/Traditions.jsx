@@ -41,29 +41,27 @@ const Traditions = () => {
               </p>
             </div>
           </div>
-          <div className=" md:w-[50%] w-full md:px-0 px-4">
-           
-            <div className="relative  rounded-tl-[48px] ">
-            <div className="absolute -z-10 right-[-55px] bottom-[-60px]">
-              <img
-                src={box}
-                alt=""
-                width={210}
-                height={190}
-                className="object-cover lg:w-[210px] lg:h-[190px] md:w-[190px] md:h-[165px] w-[180px] h-[150px] rounded-3xl"
-                loading="lazy"
-              />
-            </div>
-             <div>
-             <img
-                src={home3}
-                alt=""
-                width={500}
-                height={830}
-                className=" object-cover rounded-br-3xl"
-                loading="lazy"
-              />
-             </div>
+          <div className=" md:w-[50%]  w-full md:px-0 px-6 md:mb-0 mb-14">
+            <div className="relative rounded-tl-[48px] ">
+                <img
+                  src={home3}
+                  alt=""
+                  width={565}
+                  height={830}
+                  className=" object-cover rounded-br-3xl"
+                  loading="lazy"
+                />
+               <div className="absolute -z-10 md:right-[-65px] md:bottom-[-65px]  right-[-50px] bottom-[-50px]">
+                <img
+                  src={box}
+                  alt=""
+                  width={210}
+                  height={190}
+                  className="object-cover lg:w-[210px] lg:h-[190px] md:w-[190px] md:h-[165px] w-[180px] h-[150px] rounded-3xl"
+                  loading="lazy"
+                />
+              </div>
+              
             </div>
           </div>
         </div>

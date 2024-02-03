@@ -16,7 +16,7 @@ const Connect = () => {
     >
       <div className="w-full flex  ">
         <div className="w-[80%] h-full px-4 md:py-28 py-8 lg:gap-64 md:gap-20 gap-5  mx-auto max-w-[1200px] flex md:flex-row flex-col justify-center items-center">
-          <div className="md:w-[45%] w-full flex flex-col justify-center gap-6">
+          <div className="md:w-[45%] w-full flex flex-col justify-center md:gap-6 gap-3">
             <h1 className="lg:text-5xl md:text-4xl text-3xl leading-tight  text-[#FFFFFF] font-[700]">
               Connect with Noulamer
             </h1>
@@ -76,7 +76,7 @@ const Connect = () => {
               />
             </h1>
             <div className="flex justify-end">
-              <Link className="text-[#FFFFFF] bg-[#0A385A] transition-all duration-700 ease-in-out  hover:scale-95  w-[150px]  flex items-center  gap-3 mt-8 px-8  py-5 rounded-full font-[600] text-[17px]">
+              <Link className="text-[#FFFFFF] bg-[#0A385A] transition-all duration-700 ease-in-out  hover:scale-95  w-[150px]  flex items-center  gap-3 md:mt-8 mt-3 px-8  py-5 rounded-full font-[600] text-[17px]">
                 Submit <GoArrowRight className="w-6 h-6" />
               </Link>
             </div>

@@ -18,8 +18,8 @@ const Header = () => {
           </Link>
         </div>
 
-        <nav>
-          <ul className="flex gap-x-14 text-[17px] font-[700] text-[#FFFFFF] leading-6">
+        <nav className="">
+          <ul className="flex md:gap-x-14  gap-4 md:text-[17px] text-[15px] font-[700] text-[#FFFFFF] leading-6">
             <li className="transition-all duration-700 ease-in-out  hover:scale-95 ">
               <Link to="/">HOME</Link>
             </li>

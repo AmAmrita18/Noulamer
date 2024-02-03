@@ -16,7 +16,7 @@ const Pledge = () => {
             Authenticity & Freshness Redefined
           </h1>
           <div className="flex flex-col mt-6 gap-y-4">
-            <p className="lg:text-[19px] md:text-[18px] text-[15px] text-center font-[400] mx-[7.75rem] text-[#1E1E1E] leading-tight">
+            <p className="lg:text-[19px] md:text-[18px] text-[15px] text-center font-[400] md:mx-[7.75rem] mx-0 text-[#1E1E1E] leading-tight">
               While our reputation may precede us, we believe the true Noulamer
               experience is best felt firsthand.
               <br />
