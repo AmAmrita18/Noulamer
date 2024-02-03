@@ -8,7 +8,7 @@ const Process = () => {
     <div className="w-full">
       <div className="w-[80%]  max-w-[1200px] py-16 mx-auto">
         <div className="flex md:flex-row flex-col lg:gap-16 md:gap-6 gap-3 ">
-          <div className=" w-[40%]">
+          <div className=" md:w-[40%] w-full md:px-0 px-4">
             <div className="relative rounded-bl-[48px] ">
               <div className="absolute -z-10 left-[-65px] bottom-[-65px]">
                 <img
@@ -32,7 +32,7 @@ const Process = () => {
               </div>
             </div>
           </div>
-          <div className="w-[60%] lg:ml-8 md:ml-4 ml-0 lg:mt-20 md:mt-4 mt-1">
+          <div className="md:w-[60%] w-full px-4 lg:ml-8 md:ml-4 ml-0 lg:mt-20 md:mt-4 mt-1">
             <div className="flex gap-4 items-center ">
               <div className="w-3 h-3 bg-[#EF4030] "></div>
               <h4 className="text-xl font-[600] leading-none text-[#0A385A]">
