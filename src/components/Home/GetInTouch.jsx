@@ -10,8 +10,8 @@ const GetInTouch = () => {
   return (
     <div className="w-full">
       <div className="w-[80%]  max-w-[1200px] pt-8 pb-24 my-12 mx-auto">
-        <div className="flex gap-16">
-          <div className=" w-[55%]">
+        <div className="flex lg:gap-22 md:gap-12 gap-3">
+          <div className=" w-[44%]">
             <div className="relative  top-16  rounded-tl-[48px] ">
               <div className="absolute -z-10 left-[-65px] bottom-[-65px]">
                 <img
@@ -35,18 +35,18 @@ const GetInTouch = () => {
               </div>
             </div>
           </div>
-          <div className="w-[45%] mt-24">
+          <div className="w-[56%] mt-24">
             <div className="flex gap-4 items-center ">
               <div className="w-3 h-3 bg-[#EF4030] "></div>
               <h4 className="text-xl font-[600] text-[#0A385A]">
                 Let&apos;s Talk Seafood
               </h4>
             </div>
-            <h1 className="py-4 text-[50px] leading-none font-[600] text-[#0A385A]">
+            <h1 className="py-4 lg:text-[50px] md:text-[40px] text-[30px]  leading-none font-[600] text-[#0A385A]">
               Get in touch with us
             </h1>
             <div className="flex flex-col gap-y-4">
-              <p className="text-[19px] font-[400] pr-8 text-[#1E1E1E] mb-14 leading-tight">
+              <p className="lg:text-[19px] md:text-[18px] text-[15px] font-[400] pr-8 text-[#1E1E1E] lg:mb-14 md:mb-6 mb-3 leading-tight">
                 Dive deeper into our world of fresh, local seafood. Connect with
                 us for personalized service and discover the catch that sets
                 Noulamer apart.
@@ -62,7 +62,7 @@ const GetInTouch = () => {
                   <h2 className="text-[17px] font-[400] text-[#7D7D7D] leading-tight">
                     Have any questions? Call us at:
                   </h2>
-                  <p className="text-[19px] font-[400] text-[#0A385A] leading-tight">
+                  <p className="lg:text-[19px] md:text-[18px] text-[15px] font-[400] text-[#0A385A] leading-tight">
                     +230 5123 4567
                   </p>
                 </div>
@@ -75,7 +75,7 @@ const GetInTouch = () => {
                   <h2 className="text-[17px] font-[400] text-[#7D7D7D] leading-tight">
                     Email us your queries:
                   </h2>
-                  <p className="text-[19px] font-[400] text-[#0A385A] leading-tight">
+                  <p className="lg:text-[19px] md:text-[18px] text-[15px] font-[400] text-[#0A385A] leading-tight">
                     info@noulamer.shop
                   </p>
                 </div>
@@ -88,7 +88,7 @@ const GetInTouch = () => {
                   <h2 className="text-[17px] font-[400] text-[#7D7D7D] leading-tight">
                     Visit our stall:
                   </h2>
-                  <p className="text-[19px] font-[400] text-[#0A385A] leading-tight">
+                  <p className="lg:text-[19px] md:text-[18px] text-[15px] font-[400] text-[#0A385A] leading-tight">
                     Stall Number 3, Quatre Bornes Market
                   </p>
                 </div>
