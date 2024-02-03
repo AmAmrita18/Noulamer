@@ -12,6 +12,7 @@ const Cta = () => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         objectFit: "cover",
+       
       }}
     >
       <div className="w-[80%] h-full mx-auto max-w-[1200px] flex flex-col justify-center items-center">
