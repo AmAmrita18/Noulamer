@@ -8,7 +8,7 @@ const Story = (button) => {
   return (
     <div className="w-full">
       <div className="w-[80%]  max-w-[1200px] py-8 my-20 mx-auto">
-        <div className="flex gap-44">
+        <div className="flex lg:gap-44 md:gap-16 gap-10">
           <div className=" w-[50%]">
             <div className="relative top-16  rounded-tl-[48px] ">
               <div className="absolute -z-10 left-[-65px] top-[-65px]">
