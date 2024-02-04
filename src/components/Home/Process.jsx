@@ -6,7 +6,7 @@ import { FaCheck } from "react-icons/fa6";
 const Process = () => {
   return (
     <div className="w-full">
-      <div className="w-[80%]  max-w-[1200px] py-16 mx-auto">
+      <div className="w-[80%]  max-w-[1200px] md:pt-16 md:pb-16 pt-12 pb-5 mx-auto">
         <div className="flex md:flex-row flex-col lg:gap-16 md:gap-4 gap-3 ">
           <div className=" md:w-[40%] w-full md:px-0 px-6 md:mb-0 mb-16">
             <div className="relative rounded-bl-[48px] ">
@@ -55,13 +55,13 @@ const Process = () => {
                 freshness, featuring:
               </p>
             </div>
-            <ul className="flex lg:gap-x-8 md:gap-x-4 gap-x-1 lg:mt-8 md:mt-4 mt-2">
-              <div className="flex flex-col gap-y-4 justify-between">
+            <ul className="flex md:flex-row flex-col md:gap-y-0 gap-y-1 lg:gap-x-8 md:gap-x-4 gap-x-1 lg:mt-8 md:mt-4 mt-4">
+              <div className="flex flex-col md:gap-y-4 gap-y-1 justify-between">
                 <div className="flex  items-center  gap-4">
                   <div className="w-[14px] h-[14px] rounded-full flex items-center bg-[#EF4030]">
                     <FaCheck className="w-[11px] h-[11px]  text-[#FFFFFF]" />
                   </div>
-                  <li className="lg:text-[19px] md:text-[18px] text-[15px]  font-[600] text-[#000A2D] leading-tight">
+                  <li className="lg:text-[19px] md:text-[18px] text-[13px]  font-[600] text-[#000A2D] leading-tight">
                     Ice-cold Storage
                   </li>
                 </div>
@@ -69,17 +69,17 @@ const Process = () => {
                   <div className="w-[14px] h-[14px] rounded-full flex items-center bg-[#EF4030]">
                     <FaCheck className="w-[11px] h-[11px]  text-[#FFFFFF]" />
                   </div>
-                  <li className="lg:text-[19px] md:text-[18px] text-[15px]  font-[600] text-[#000A2D] leading-tight">
+                  <li className="lg:text-[19px] md:text-[18px] text-[13px]  font-[600] text-[#000A2D] leading-tight">
                     Sustainable Packing Areas
                   </li>
                 </div>
               </div>
-              <div className="flex flex-col gap-y-4 justify-between ">
+              <div className="flex flex-col md:gap-y-4 gap-y-1 justify-between ">
                 <div className="flex items-center  gap-4">
                   <div className="w-[14px] h-[14px] rounded-full flex items-center bg-[#EF4030]">
                     <FaCheck className="w-[11px] h-[11px]  text-[#FFFFFF]" />
                   </div>
-                  <li className="lg:text-[19px] md:text-[18px] text-[15px]  font-[600] text-[#000A2D] leading-tight">
+                  <li className="lg:text-[19px] md:text-[18px] text-[13px]  font-[600] text-[#000A2D] leading-tight">
                     Quality Control Stations
                   </li>
                 </div>
@@ -88,7 +88,7 @@ const Process = () => {
                   <div className="w-[14px] h-[14px] rounded-full flex items-center bg-[#EF4030]">
                     <FaCheck className="w-[11px] h-[11px]  text-[#FFFFFF]" />
                   </div>
-                  <li className="lg:text-[19px] md:text-[18px] text-[15px]  font-[600] text-[#000A2D] leading-tight">
+                  <li className="lg:text-[19px] md:text-[18px] text-[13px]  font-[600] text-[#000A2D] leading-tight">
                     Community-Focused Market Stall
                   </li>
                 </div>
