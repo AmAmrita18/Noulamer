@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="w-full ">
       <div className="w-[80%] max-w-[1200px] px-4 py-8 mx-auto">
         <div className="flex md:flex-row flex-col md:gap-y-0 gap-y-5 justify-between border-b border-[#212828] md:py-20 py-6 items-center  ">
-          <ul className="flex lg:gap-x-14 md:gap-x-10 gap-x-[0.65rem] lg:text-[18px] md:[text-15px] text-[14px] font-[500] text-[#0A385A] leading-6">
+          <ul className="flex lg:gap-x-14 md:gap-x-10 gap-x-[0.65rem] lg:text-[18px] md:[text-15px] text-[13px] font-[500] text-[#0A385A] leading-6">
             <li className="transition-all duration-700 ease-in-out  hover:scale-95 ">
               <Link to="/">HOME</Link>
             </li>

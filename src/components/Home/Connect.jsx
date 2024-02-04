@@ -15,7 +15,7 @@ const Connect = () => {
       }}
     >
       <div className="w-full flex  ">
-        <div className="w-[80%] h-full px-4 md:py-28 py-8 lg:gap-64 md:gap-10 gap-5  mx-auto max-w-[1200px] flex md:flex-row flex-col justify-center items-center">
+        <div className="w-[80%] h-full px-4 md:py-28 py-8 lg:gap-64 md:gap-10 gap-1  mx-auto max-w-[1200px] flex md:flex-row flex-col justify-center items-center">
           <div className="md:w-[45%] w-full flex flex-col justify-center md:gap-6 gap-3">
             <h1 className="lg:text-5xl md:text-4xl text-3xl leading-tight  text-[#FFFFFF] font-[700]">
               Connect with Noulamer
@@ -66,7 +66,7 @@ const Connect = () => {
                 />
               </h1>
             </div>
-            <h1 className="text-[#FFFFFF] border-b pb-4 w-full border-[#F2F2F2] lg:text-[20px] md:text-[18px] text-[16px] font-[500]">
+            <h1 className="text-[#FFFFFF] border-b md:pb-4 pb-0 w-full border-[#F2F2F2] lg:text-[20px] md:text-[18px] text-[16px] font-[500]">
               <input
                 type="text"
                 id="message"

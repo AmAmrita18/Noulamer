@@ -6,22 +6,22 @@ import product3 from "../../assets/product3.png";
 const Selection = () => {
   return (
     <div className="w-full">
-      <div className="w-[80%]  max-w-[1200px] pt-8 py-8 mx-auto">
-        <div className="flex flex-col items-center justify-center mt-24">
+      <div className="w-[80%]  max-w-[1200px] py-8 mx-auto">
+        <div className="flex flex-col items-center justify-center md:mt-24 mt-8">
           <div className="flex gap-4 items-center ">
             <div className="w-3 h-3 bg-[#EF4030]"></div>
             <h4 className="text-xl font-[600] text-[#0A385A]">
               Our Seafood Selection
             </h4>
           </div>
-          <h1 className="py-4 text-[50px] text-center font-[600] mx-32 leading-tight text-[#0A385A] ">
+          <h1 className="py-4 lg:text-[50px] md:text-[40px] text-[30px] text-center font-[600] lg:mx-32 mx-auto leading-tight text-[#0A385A] ">
             Taste the freshness of Mauritius' waters. Our select seafood brings
             the ocean's bounty straight to your table.
           </h1>
         </div>
 
         
-        <div className="grid grid-cols-3 gap-4 gap-y-20 mt-40">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 lg:gap-y-20 md:gap-y-12 gap-y-6 lg:mt-40 md:mt-24 mt-10">
           <div className="relative cursor-pointer   transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
             <img
               src={product1}
