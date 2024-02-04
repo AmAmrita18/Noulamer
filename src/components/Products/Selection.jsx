@@ -22,7 +22,7 @@ const Selection = () => {
 
         
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 lg:gap-y-20 md:gap-y-12 gap-y-6 lg:mt-40 md:mt-24 mt-10">
-          <div className="relative cursor-pointer  transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
+          <div className="relative cursor-pointer mx-auto transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
             <img
               src={product1}
               width={390}
@@ -35,7 +35,7 @@ const Selection = () => {
               <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">Trout</h1>
             </div>
           </div>
-          <div className="relative cursor-pointer transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
+          <div className="relative cursor-pointer mx-auto transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
             <img
               src={product2}
               width={390}
@@ -48,7 +48,7 @@ const Selection = () => {
               <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">Tuna</h1>
             </div>
           </div>
-          <div className="relative cursor-pointer  transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
+          <div className="relative cursor-pointer mx-auto  transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
             <img
               src={product3}
               width={390}
@@ -63,7 +63,7 @@ const Selection = () => {
               </h1>
             </div>
           </div>
-          <div className="relative cursor-pointer transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
+          <div className="relative cursor-pointer mx-auto transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
             <img
               src={product3}
               width={390}
@@ -78,7 +78,7 @@ const Selection = () => {
               </h1>
             </div>
           </div>
-          <div className="relative cursor-pointer transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
+          <div className="relative cursor-pointer mx-auto transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
             <img
               src={product2}
               width={390}
@@ -91,7 +91,7 @@ const Selection = () => {
               <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">Trout</h1>
             </div>
           </div>
-          <div className="relative cursor-pointer transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
+          <div className="relative cursor-pointer mx-auto transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
             <img
               src={product1}
               width={390}
@@ -104,7 +104,7 @@ const Selection = () => {
               <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">Tuna</h1>
             </div>
           </div>
-          <div className="relative cursor-pointer transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
+          <div className="relative cursor-pointer mx-auto transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
             <img
               src={product2}
               width={390}
@@ -117,7 +117,7 @@ const Selection = () => {
               <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">Tuna</h1>
             </div>
           </div>
-          <div className="relative cursor-pointer transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
+          <div className="relative cursor-pointer mx-auto transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
             <img
               src={product1}
               width={390}
@@ -130,7 +130,7 @@ const Selection = () => {
               <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">Trout</h1>
             </div>
           </div>
-          <div className="relative cursor-pointer transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
+          <div className="relative cursor-pointer mx-auto transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
             <img
               src={product3}
               width={390}
