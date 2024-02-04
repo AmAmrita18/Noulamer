@@ -102,7 +102,7 @@ const ContactForm = () => {
               </h1>
               <div>
                 <ul className="flex md:flex-row flex-col justify-between lg:gap-4 md:gap-10 gap-1">
-                  <li className="text-[#0A385A] flex items-baseline md:text-[16px] text-[13px] font-[400] ">
+                  <li className="text-[#0A385A] flex md:items-baseline item-center md:text-[16px] text-[13px] font-[400] ">
                     <input
                       type="radio"
                       id="generalinquiry"
@@ -112,7 +112,7 @@ const ContactForm = () => {
 
                     <label htmlFor="generalinquiry">General Inquiry</label>
                   </li>
-                  <li className="text-[#0A385A] flex items-baseline md:text-[16px] text-[13px] font-[400]">
+                  <li className="text-[#0A385A] flex md:items-baseline item-center md:text-[16px] text-[13px] font-[400]">
                     <input
                       type="radio"
                       id="generalinquiry"
@@ -121,7 +121,7 @@ const ContactForm = () => {
                     />
                     <label htmlFor="generalinquiry">General Inquiry</label>
                   </li>
-                  <li className="text-[#0A385A] flex items-baseline md:text-[16px] text-[13px] font-[400]">
+                  <li className="text-[#0A385A] flex md:items-baseline item-center md:text-[16px] text-[13px] font-[400]">
                     <input
                       type="radio"
                       id="generalinquiry"
@@ -130,7 +130,7 @@ const ContactForm = () => {
                     />
                     <label htmlFor="generalinquiry">General Inquiry</label>
                   </li>
-                  <li className="text-[#0A385A] flex items-baseline md:text-[16px] text-[13px] font-[400]">
+                  <li className="text-[#0A385A] flex md:items-baseline item-center md:text-[16px] text-[13px] font-[400]">
                     <input
                       type="radio"
                       id="generalinquiry"
