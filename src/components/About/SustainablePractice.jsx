@@ -7,9 +7,9 @@ const SustainablePractice = () => {
     <div className="w-full">
       <div className="w-[80%]  max-w-[1200px] py-8 md:mb-40 mb-8 md:my-8 my-5 mx-auto">
         <div className="flex  md:flex-row flex-col lg:gap-44 md:gap-10 gap-10">
-          <div className=" md:w-[50%] w-full md:px-0 px-6 md:mb-0 mb-14">
+          <div className=" md:w-[50%] w-full md:px-0 px-4 md:mb-0 mb-14">
             <div className="relative top-16   ">
-              <div className="absolute -z-10 md:top-[-65px] md:left-[-65px] top-[-50px] left-[-50px]">
+              <div className="absolute -z-10 md:top-[-65px] md:left-[-65px] top-[-35px] left-[-35px]">
                 <img
                   src={box}
                   alt=""

@@ -8,9 +8,9 @@ const Process = () => {
     <div className="w-full">
       <div className="w-[80%]  max-w-[1200px] md:pt-16 md:pb-16 pt-12 pb-5 mx-auto">
         <div className="flex md:flex-row flex-col lg:gap-16 md:gap-4 gap-3 ">
-          <div className=" md:w-[40%] w-full md:px-0 px-6 md:mb-0 mb-16">
+          <div className=" md:w-[40%] w-full md:px-0 px-4 md:mb-0 mb-16">
             <div className="relative rounded-bl-[48px] ">
-              <div className="absolute -z-10 md:left-[-65px] md:bottom-[-65px] left-[-50px] bottom-[-50px]">
+              <div className="absolute -z-10 md:left-[-65px] md:bottom-[-65px] left-[-35px] bottom-[-35px]">
                 <img
                   src={box}
                   alt=""

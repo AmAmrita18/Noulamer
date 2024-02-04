@@ -9,9 +9,9 @@ const Story = (button) => {
     <div className="w-full">
       <div className="w-[80%]  max-w-[1200px] py-8 lg:my-20 md:my-10 my-5 mx-auto">
         <div className="flex md:flex-row flex-col lg:gap-44 md:gap-10 gap-10">
-          <div className=" md:w-[50%] w-full md:mb-0 mb-8 md:px-0 px-6 ">
+          <div className=" md:w-[50%] w-full md:mb-0 mb-8 md:px-0 px-4 ">
             <div className="relative top-16  rounded-tl-[48px] ">
-              <div className="absolute -z-10  md:left-[-65px] md:top-[-65px] left-[-50px] top-[-50px]">
+              <div className="absolute -z-10  md:left-[-65px] md:top-[-65px] left-[-35px] top-[-35px]">
                 <img
                   src={box}
                   alt=""

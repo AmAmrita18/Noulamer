@@ -42,9 +42,9 @@ const Heritage = () => {
               Read About Us <GoArrowRight className="w-6 h-6" />
             </Link>
           </div>
-          <div className=" md:w-[50%] w-full md:px-0 px-6 md:mb-0 mb-14">
+          <div className=" md:w-[50%] w-full md:px-0 px-4 md:mb-0 mb-14">
             <div className="relative top-16   ">
-              <div className="absolute -z-10 md:top-[-65px] md:right-[-65px] top-[-50px] right-[-50px]">
+              <div className="absolute -z-10 md:top-[-65px] md:right-[-65px] top-[-35px] right-[-35px]">
                 <img
                   src={box}
                   alt=""

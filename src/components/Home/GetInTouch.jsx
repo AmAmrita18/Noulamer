@@ -11,9 +11,9 @@ const GetInTouch = () => {
     <div className="w-full">
       <div className="w-[80%]  max-w-[1200px] lg:pt-8 md:pt-0 pt-0 lg:pb-24 md:pb-16 pb-14 md:my-12 my-0 mx-auto">
         <div className="flex md:flex-row flex-col lg:gap-28 md:gap-12 gap-3">
-          <div className=" md:w-[44%] w-full md:px-0 px-6 md:mb-0 mb-8">
+          <div className=" md:w-[44%] w-full md:px-0 px-4 md:mb-0 mb-8">
             <div className="relative  top-16  rounded-tl-[48px] ">
-              <div className="absolute -z-10 md:left-[-65px] md:bottom-[-65px] left-[-50px] bottom-[-50px]">
+              <div className="absolute -z-10 md:left-[-65px] md:bottom-[-65px] left-[-35px] bottom-[-35px]">
                 <img
                   src={box}
                   alt=""
@@ -55,7 +55,7 @@ const GetInTouch = () => {
 
             <div className="flex flex-col gap-y-8 ">
               <div className="flex flex-row items-center gap-4">
-                <div className="w-14 h-14 cursor-pointer bg-[#F4F4F4] flex items-center justify-center rounded-full">
+                <div className="md:w-14 w-10 md:h-14 h-10 cursor-pointer bg-[#F4F4F4] flex items-center justify-center rounded-full">
                   <IoCallOutline className="text-[#EF4030] text-2xl" />
                 </div>
                 <div className="flex flex-col ">
@@ -68,7 +68,7 @@ const GetInTouch = () => {
                 </div>
               </div>
               <div className="flex flex-row items-center gap-4">
-                <div className="w-14 h-14 cursor-pointer bg-[#F4F4F4] flex items-center justify-center rounded-full">
+                <div className="md:w-14 w-10 md:h-14 h-10 cursor-pointer bg-[#F4F4F4] flex items-center justify-center rounded-full">
                   <IoMailOutline className="text-[#EF4030] text-2xl" />
                 </div>
                 <div className="flex flex-col ">
@@ -81,7 +81,7 @@ const GetInTouch = () => {
                 </div>
               </div>
               <div className="flex flex-row items-center gap-4">
-                <div className="w-14 h-14 cursor-pointer bg-[#F4F4F4] flex items-center justify-center rounded-full">
+                <div className="md:w-14 w-10 md:h-14 h-10 cursor-pointer bg-[#F4F4F4] flex items-center justify-center rounded-full">
                   <IoLocationOutline className="text-[#EF4030] text-2xl" />
                 </div>
                 <div className="flex flex-col">
