@@ -57,7 +57,7 @@ const ContactForm = () => {
           </div>
           <div className="md:w-[56%] w-full flex flex-col  md:gap-y-10 gap-y-4 lg:py-32 md:py-24 py-12 px-12">
             <div className="flex md:flex-row flex-col gap-x-16 md:gap-y-0 gap-y-5">
-              <h1 className="text-[#0A385A] lg:w-[190px] md:w-[230px] w-full border-b border-[#8D8D8D] text-[20px] font-[400]">
+              <h1 className="text-[#0A385A] lg:w-[190px] md:w-[230px] w-full border-b border-[#8D8D8D] md:text-[20px] text-[16px] font-[400]">
                 <input
                   type="text"
                   id="firstname"
@@ -66,7 +66,7 @@ const ContactForm = () => {
                   className="bg-transparent lg:w-[190px] md:w-[230px] w-full transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#0A385A] outline outline-0 focus:outline-0"
                 />
               </h1>
-              <h1 className="text-[#0A385A] lg:w-[190px] md:w-[230px] w-full border-b border-[#8D8D8D] text-[20px] font-[400]">
+              <h1 className="text-[#0A385A] lg:w-[190px] md:w-[230px] w-full border-b border-[#8D8D8D] md:text-[20px] text-[16px] font-[400]">
                 <input
                   type="text"
                   id="lastname"
@@ -77,7 +77,7 @@ const ContactForm = () => {
               </h1>
             </div>
             <div className="flex md:flex-row flex-col gap-x-16 md:gap-y-0 gap-y-5">
-              <h1 className="text-[#0A385A] lg:w-[190px] md:w-[230px] w-full border-b border-[#8D8D8D] text-[20px] font-[400]">
+              <h1 className="text-[#0A385A] lg:w-[190px] md:w-[230px] w-full border-b border-[#8D8D8D] md:text-[20px] text-[16px] font-[400]">
                 <input
                   type="email"
                   id="email"
@@ -86,7 +86,7 @@ const ContactForm = () => {
                   className="bg-transparent lg:w-[190px] md:w-[230px] w-full transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#0A385A] outline outline-0 focus:outline-0"
                 />
               </h1>
-              <h1 className="text-[#0A385A] lg:w-[190px] md:w-[230px] w-full border-b border-[#8D8D8D] text-[20px] font-[400]">
+              <h1 className="text-[#0A385A] lg:w-[190px] md:w-[230px] w-full border-b border-[#8D8D8D] md:text-[20px] text-[16px] font-[400]">
                 <input
                   type="tel"
                   id="number"
@@ -97,12 +97,12 @@ const ContactForm = () => {
               </h1>
             </div>
             <div>
-              <h1 className="text-[#0A385A]  pb-4  text-[20px] font-[400]">
+              <h1 className="text-[#0A385A]  pb-4  md:text-[20px] text-[16px] font-[400]">
                 Select Subject
               </h1>
               <div>
                 <ul className="flex md:flex-row flex-col justify-between lg:gap-4 md:gap-10 gap-1">
-                  <li className="text-[#0A385A] flex items-baseline text-[16px] font-[400] ">
+                  <li className="text-[#0A385A] flex items-baseline md:text-[16px] text-[13px] font-[400] ">
                     <input
                       type="radio"
                       id="generalinquiry"
@@ -112,7 +112,7 @@ const ContactForm = () => {
 
                     <label htmlFor="generalinquiry">General Inquiry</label>
                   </li>
-                  <li className="text-[#0A385A] flex items-baseline text-[16px] font-[400]">
+                  <li className="text-[#0A385A] flex items-baseline md:text-[16px] text-[13px] font-[400]">
                     <input
                       type="radio"
                       id="generalinquiry"
@@ -121,7 +121,7 @@ const ContactForm = () => {
                     />
                     <label htmlFor="generalinquiry">General Inquiry</label>
                   </li>
-                  <li className="text-[#0A385A] flex items-baseline text-[16px] font-[400]">
+                  <li className="text-[#0A385A] flex items-baseline md:text-[16px] text-[13px] font-[400]">
                     <input
                       type="radio"
                       id="generalinquiry"
@@ -130,7 +130,7 @@ const ContactForm = () => {
                     />
                     <label htmlFor="generalinquiry">General Inquiry</label>
                   </li>
-                  <li className="text-[#0A385A] flex items-baseline text-[16px] font-[400]">
+                  <li className="text-[#0A385A] flex items-baseline md:text-[16px] text-[13px] font-[400]">
                     <input
                       type="radio"
                       id="generalinquiry"
@@ -143,7 +143,7 @@ const ContactForm = () => {
               </div>
             </div>
             <div className="lg:pr-20 pr-0">
-              <h1 className="text-[#0A385A] border-b pb-4 border-[#8D8D8D]  text-[20px] font-[500]">
+              <h1 className="text-[#0A385A] border-b pb-4 border-[#8D8D8D]  md:text-[20px] text-[16px] font-[500]">
                 <input
                   type="text"
                   id="message"

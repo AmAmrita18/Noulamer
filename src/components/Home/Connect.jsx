@@ -33,7 +33,7 @@ const Connect = () => {
                   id="name"
                   name="name"
                   placeholder="Your Name"
-                  className="lg:w-[250px] md:w-[170px] w-full bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
+                  className="lg:w-[250px] md:w-[170px] w-full bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] placeholder:text-opacity-60 outline outline-0 focus:outline-0"
                 />
               </h1>
               <h1 className="text-[#FFFFFF] lg:w-[250px] md:w-[170px] w-full border-b border-[#F2F2F2] lg:text-[20px] md:text-[18px] text-[16px] font-[500]">
@@ -42,7 +42,7 @@ const Connect = () => {
                   id="email"
                   name="email"
                   placeholder="Your Email"
-                  className="lg:w-[250px] md:w-[170px] w-full bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
+                  className="lg:w-[250px] md:w-[170px] w-full bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] placeholder:text-opacity-60 outline outline-0 focus:outline-0"
                 />
               </h1>
             </div>
@@ -53,7 +53,7 @@ const Connect = () => {
                   id="number"
                   name="number"
                   placeholder="Phone Number"
-                  className="lg:w-[250px] md:w-[170px] w-full bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
+                  className="lg:w-[250px] md:w-[170px] w-full bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] placeholder:text-opacity-60 outline outline-0 focus:outline-0"
                 />
               </h1>
               <h1 className="text-[#FFFFFF] lg:w-[250px] md:w-[170px] w-full border-b border-[#F2F2F2] lg:text-[20px] md:text-[18px] text-[16px] font-[500]">
@@ -62,7 +62,7 @@ const Connect = () => {
                   id="interest"
                   name="interest"
                   placeholder="Interested In"
-                  className="lg:w-[250px] md:w-[170px] w-full bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
+                  className="lg:w-[250px] md:w-[170px] w-full bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] placeholder:text-opacity-60 outline outline-0 focus:outline-0"
                 />
               </h1>
             </div>
@@ -72,7 +72,7 @@ const Connect = () => {
                 id="message"
                 name="message"
                 placeholder="Message"
-                className="bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
+                className="bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] placeholder:text-opacity-60 outline outline-0 focus:outline-0"
               />
             </h1>
             <div className="flex justify-end">

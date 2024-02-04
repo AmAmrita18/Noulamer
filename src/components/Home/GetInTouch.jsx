@@ -59,10 +59,10 @@ const GetInTouch = () => {
                   <IoCallOutline className="text-[#EF4030] text-2xl" />
                 </div>
                 <div className="flex flex-col ">
-                  <h2 className="text-[17px] font-[400] text-[#7D7D7D] leading-tight">
+                  <h2 className="md:text-[17px] text-[14px] font-[400] text-[#7D7D7D] leading-tight">
                     Have any questions? Call us at:
                   </h2>
-                  <p className="lg:text-[19px] md:text-[18px] text-[15px] font-[400] text-[#0A385A] leading-tight">
+                  <p className="lg:text-[19px] md:text-[18px] text-[11px] font-[400] text-[#0A385A] leading-tight">
                     +230 5123 4567
                   </p>
                 </div>
@@ -72,10 +72,10 @@ const GetInTouch = () => {
                   <IoMailOutline className="text-[#EF4030] text-2xl" />
                 </div>
                 <div className="flex flex-col ">
-                  <h2 className="text-[17px] font-[400] text-[#7D7D7D] leading-tight">
+                  <h2 className="md:text-[17px] text-[14px] font-[400] text-[#7D7D7D] leading-tight">
                     Email us your queries:
                   </h2>
-                  <p className="lg:text-[19px] md:text-[18px] text-[15px] font-[400] text-[#0A385A] leading-tight">
+                  <p className="lg:text-[19px] md:text-[18px] text-[11px] font-[400] text-[#0A385A] leading-tight">
                     info@noulamer.shop
                   </p>
                 </div>
@@ -85,10 +85,10 @@ const GetInTouch = () => {
                   <IoLocationOutline className="text-[#EF4030] text-2xl" />
                 </div>
                 <div className="flex flex-col">
-                  <h2 className="text-[17px] font-[400] text-[#7D7D7D] leading-tight">
+                  <h2 className="md:text-[17px] text-[14px] font-[400] text-[#7D7D7D] leading-tight">
                     Visit our stall:
                   </h2>
-                  <p className="lg:text-[19px] md:text-[18px] text-[15px] font-[400] text-[#0A385A] leading-tight">
+                  <p className="lg:text-[19px] md:text-[18px] text-[11px] font-[400] text-[#0A385A] leading-tight">
                     Stall Number 3, Quatre Bornes Market
                   </p>
                 </div>
