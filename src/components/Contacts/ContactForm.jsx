@@ -63,7 +63,7 @@ const ContactForm = () => {
                   id="firstname"
                   name="firstname"
                   placeholder="First Name"
-                  className="bg-transparent lg:w-[190px] md:w-[230px] w-full transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#0A385A] placeholder:text-opacity-90 outline outline-0 focus:outline-0"
+                  className="bg-transparent lg:w-[190px] md:w-[230px] w-full transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#0A385A] placeholder:text-opacity-80 outline outline-0 focus:outline-0"
                 />
               </h1>
               <h1 className="text-[#0A385A] lg:w-[190px] md:w-[230px] w-full border-b border-[#8D8D8D] md:text-[20px] text-[16px] font-[400]">
@@ -72,7 +72,7 @@ const ContactForm = () => {
                   id="lastname"
                   name="lastname"
                   placeholder="Last Name"
-                  className="bg-transparent lg:w-[190px] md:w-[230px] w-full transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#0A385A] placeholder:text-opacity-90 outline outline-0 focus:outline-0"
+                  className="bg-transparent lg:w-[190px] md:w-[230px] w-full transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#0A385A] placeholder:text-opacity-80 outline outline-0 focus:outline-0"
                 />
               </h1>
             </div>
@@ -83,7 +83,7 @@ const ContactForm = () => {
                   id="email"
                   name="email"
                   placeholder="Email"
-                  className="bg-transparent lg:w-[190px] md:w-[230px] w-full transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#0A385A] placeholder:text-opacity-90 outline outline-0 focus:outline-0"
+                  className="bg-transparent lg:w-[190px] md:w-[230px] w-full transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#0A385A] placeholder:text-opacity-80 outline outline-0 focus:outline-0"
                 />
               </h1>
               <h1 className="text-[#0A385A] lg:w-[190px] md:w-[230px] w-full border-b border-[#8D8D8D] md:text-[20px] text-[16px] font-[400]">
@@ -92,7 +92,7 @@ const ContactForm = () => {
                   id="number"
                   name="number"
                   placeholder="Phone Number"
-                  className="bg-transparent lg:w-[190px] md:w-[230px] w-full transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#0A385A] placeholder:text-opacity-90 outline outline-0 focus:outline-0"
+                  className="bg-transparent lg:w-[190px] md:w-[230px] w-full transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#0A385A] placeholder:text-opacity-80 outline outline-0 focus:outline-0"
                 />
               </h1>
             </div>
@@ -149,7 +149,7 @@ const ContactForm = () => {
                   id="message"
                   name="message"
                   placeholder="Write your message..."
-                  className="bg-transparent transition-all w-full  duration-700 ease-in-out  hover:scale-95 placeholder:text-[#0A385A] placeholder:text-opacity-90 outline outline-0 focus:outline-0"
+                  className="bg-transparent transition-all w-full  duration-700 ease-in-out  hover:scale-95 placeholder:text-[#0A385A] placeholder:text-opacity-80 outline outline-0 focus:outline-0"
                 />
               </h1>
             </div>

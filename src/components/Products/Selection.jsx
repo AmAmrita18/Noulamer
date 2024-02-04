@@ -32,7 +32,7 @@ const Selection = () => {
               loading="lazy"
             />
             <div className="absolute bottom-0 w-full   h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
-              <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">Trout</h1>
+              <h1 className="lg:text-4xl md:text-3xl text-2xl text-[#FFFFFF] font-[600] ml-6">Trout</h1>
             </div>
           </div>
           <div className="relative cursor-pointer mx-auto transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
@@ -45,7 +45,7 @@ const Selection = () => {
               loading="lazy"
             />
             <div className="absolute bottom-0  w-full h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
-              <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">Tuna</h1>
+              <h1 className="lg:text-4xl md:text-3xl text-2xl text-[#FFFFFF] font-[600] ml-6">Tuna</h1>
             </div>
           </div>
           <div className="relative cursor-pointer mx-auto  transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
@@ -58,7 +58,7 @@ const Selection = () => {
               loading="lazy"
             />
             <div className="absolute bottom-0  w-full h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
-              <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">
+              <h1 className="lg:text-4xl md:text-3xl text-2xl text-[#FFFFFF] font-[600] ml-6">
                 Tilapia
               </h1>
             </div>
@@ -73,7 +73,7 @@ const Selection = () => {
               loading="lazy"
             />
             <div className="absolute bottom-0  w-full h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
-              <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">
+              <h1 className="lg:text-4xl md:text-3xl text-2xl text-[#FFFFFF] font-[600] ml-6">
                 Tilapia
               </h1>
             </div>
@@ -88,7 +88,7 @@ const Selection = () => {
               loading="lazy"
             />
             <div className="absolute bottom-0  w-full h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
-              <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">Trout</h1>
+              <h1 className="lg:text-4xl md:text-3xl text-2xl text-[#FFFFFF] font-[600] ml-6">Trout</h1>
             </div>
           </div>
           <div className="relative cursor-pointer mx-auto transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
@@ -101,7 +101,7 @@ const Selection = () => {
               loading="lazy"
             />
             <div className="absolute bottom-0  w-full h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
-              <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">Tuna</h1>
+              <h1 className="lg:text-4xl md:text-3xl text-2xl text-[#FFFFFF] font-[600] ml-6">Tuna</h1>
             </div>
           </div>
           <div className="relative cursor-pointer mx-auto transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
@@ -114,7 +114,7 @@ const Selection = () => {
               loading="lazy"
             />
             <div className="absolute bottom-0  w-full h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
-              <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">Tuna</h1>
+              <h1 className="lg:text-4xl md:text-3xl text-2xl text-[#FFFFFF] font-[600] ml-6">Tuna</h1>
             </div>
           </div>
           <div className="relative cursor-pointer mx-auto transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
@@ -127,7 +127,7 @@ const Selection = () => {
               loading="lazy"
             />
             <div className="absolute bottom-0  w-full h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
-              <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">Trout</h1>
+              <h1 className="lg:text-4xl md:text-3xl text-2xl text-[#FFFFFF] font-[600] ml-6">Trout</h1>
             </div>
           </div>
           <div className="relative cursor-pointer mx-auto transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
@@ -140,7 +140,7 @@ const Selection = () => {
               loading="lazy"
             />
             <div className="absolute bottom-0  w-full h-[100px] rounded-2xl bg-[#0A385A] flex items-center ">
-              <h1 className="text-4xl text-[#FFFFFF] font-[600] ml-6">
+              <h1 className="lg:text-4xl md:text-3xl text-2xl text-[#FFFFFF] font-[600] ml-6">
                 Tilapia
               </h1>
             </div>
