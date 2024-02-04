@@ -9,8 +9,8 @@ import { IoLocationOutline } from "react-icons/io5";
 const GetInTouch = () => {
   return (
     <div className="w-full">
-      <div className="w-[80%]  max-w-[1200px] pt-8 pb-24 my-12 mx-auto">
-        <div className="flex md:flex-row flex-col lg:gap-22 md:gap-12 gap-3">
+      <div className="w-[80%]  max-w-[1200px] pt-8 pb-24 md:my-12 my-5 mx-auto">
+        <div className="flex md:flex-row flex-col lg:gap-28 md:gap-12 gap-3">
           <div className=" md:w-[44%] w-full md:px-0 px-6 md:mb-0 mb-8">
             <div className="relative  top-16  rounded-tl-[48px] ">
               <div className="absolute -z-10 md:left-[-65px] md:bottom-[-65px] left-[-50px] bottom-[-50px]">

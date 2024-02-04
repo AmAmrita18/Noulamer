@@ -18,7 +18,7 @@ const Hero = ({ description1, description2, button, heroImage }) => {
       <div className="w-full">
         <Header />
         <div className="w-[80%] h-full px-4 mx-auto max-w-[1200px] flex flex-col justify-center items-start ">
-          <h1 className="lg:text-7xl md:text-6xl text-5xl leading-tight md:mt-24 mt-0 text-[#FFFFFF] font-[600]">
+          <h1 className="lg:text-7xl md:text-6xl text-5xl leading-tight lg:mt-24 md:mt-44 mt-0 text-[#FFFFFF] font-[600]">
             {description1}
           </h1>
           <h1 className="lg:text-7xl md:text-6xl text-5xl leading-tight  text-[#FFFFFF] font-[600]">

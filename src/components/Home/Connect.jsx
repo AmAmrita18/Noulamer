@@ -15,7 +15,7 @@ const Connect = () => {
       }}
     >
       <div className="w-full flex  ">
-        <div className="w-[80%] h-full px-4 md:py-28 py-8 lg:gap-64 md:gap-20 gap-5  mx-auto max-w-[1200px] flex md:flex-row flex-col justify-center items-center">
+        <div className="w-[80%] h-full px-4 md:py-28 py-8 lg:gap-64 md:gap-10 gap-5  mx-auto max-w-[1200px] flex md:flex-row flex-col justify-center items-center">
           <div className="md:w-[45%] w-full flex flex-col justify-center md:gap-6 gap-3">
             <h1 className="lg:text-5xl md:text-4xl text-3xl leading-tight  text-[#FFFFFF] font-[700]">
               Connect with Noulamer
@@ -27,42 +27,42 @@ const Connect = () => {
           </div>
           <div className="md:w-[55%] w-full md:px-0 pr-8 md:pt-0 pt-4 flex flex-col md:gap-y-10 gap-y-4">
             <div className="flex md:flex-row flex-col md:gap-y-0 gap-y-4  gap-x-[1rem]">
-              <h1 className="text-[#FFFFFF] lg:w-[250px] md:w-[200px] w-full border-b border-[#F2F2F2] lg:text-[20px] md:text-[18px] text-[16px] font-[500]">
+              <h1 className="text-[#FFFFFF] lg:w-[250px] md:w-[170px] w-full border-b border-[#F2F2F2] lg:text-[20px] md:text-[18px] text-[16px] font-[500]">
                 <input
                   type="text"
                   id="name"
                   name="name"
                   placeholder="Your Name"
-                  className="bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
+                  className="lg:w-[250px] md:w-[170px] w-full bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
                 />
               </h1>
-              <h1 className="text-[#FFFFFF] lg:w-[250px] md:w-[200px] w-full border-b border-[#F2F2F2] lg:text-[20px] md:text-[18px] text-[16px] font-[500]">
+              <h1 className="text-[#FFFFFF] lg:w-[250px] md:w-[170px] w-full border-b border-[#F2F2F2] lg:text-[20px] md:text-[18px] text-[16px] font-[500]">
                 <input
                   type="email"
                   id="email"
                   name="email"
                   placeholder="Your Email"
-                  className="bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
+                  className="lg:w-[250px] md:w-[170px] w-full bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
                 />
               </h1>
             </div>
             <div className="flex md:flex-row flex-col md:gap-y-0 gap-y-4 gap-x-[1rem]">
-              <h1 className="text-[#FFFFFF] lg:w-[250px] md:w-[200px] w-full border-b border-[#F2F2F2] lg:text-[20px] md:text-[18px] text-[16px] font-[500]">
+              <h1 className="text-[#FFFFFF] lg:w-[250px] md:w-[170px] w-full border-b border-[#F2F2F2] lg:text-[20px] md:text-[18px] text-[16px] font-[500]">
                 <input
                   type="tel"
                   id="number"
                   name="number"
                   placeholder="Phone Number"
-                  className="bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
+                  className="lg:w-[250px] md:w-[170px] w-full bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
                 />
               </h1>
-              <h1 className="text-[#FFFFFF] lg:w-[250px] md:w-[200px] w-full border-b border-[#F2F2F2] lg:text-[20px] md:text-[18px] text-[16px] font-[500]">
+              <h1 className="text-[#FFFFFF] lg:w-[250px] md:w-[170px] w-full border-b border-[#F2F2F2] lg:text-[20px] md:text-[18px] text-[16px] font-[500]">
                 <input
                   type="text"
                   id="interest"
                   name="interest"
                   placeholder="Interested In"
-                  className="bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
+                  className="lg:w-[250px] md:w-[170px] w-full bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] outline outline-0 focus:outline-0"
                 />
               </h1>
             </div>
