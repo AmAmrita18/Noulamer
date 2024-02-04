@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import headerLogo from "../assets/logo.png";
 import { FaBars } from 'react-icons/fa'
 import { IoIosCloseCircle } from "react-icons/io";
@@ -49,16 +49,16 @@ const Header = () => {
         <nav className="">
           <ul className="md:flex hidden lg:gap-x-14 md:gap-x-8  gap-4 md:text-[17px] text-[15px] font-[700] text-[#FFFFFF] leading-6">
             <li className="transition-all duration-700 ease-in-out  hover:scale-95 ">
-              <Link to="/">HOME</Link>
+              <NavLink to="/" className={({isActive}) => `${isActive && "text-[#EF4030]"}`}>HOME</NavLink>
             </li>
             <li className="transition-all duration-700 ease-in-out  hover:scale-95 ">
-              <Link to="/about">ABOUT US</Link>
+              <NavLink to="/about" className={({isActive}) => `${isActive && "text-[#EF4030]"}`}>ABOUT US</NavLink>
             </li>
             <li className="transition-all duration-700 ease-in-out  hover:scale-95 ">
-              <Link to="/products">PRODUCTS</Link>
+              <NavLink to="/products" className={({isActive}) => `${isActive && "text-[#EF4030]"}`}>PRODUCTS</NavLink>
             </li>
             <li className="transition-all duration-700 ease-in-out  hover:scale-95 ">
-              <Link to="/contact">CONTACT</Link>
+              <NavLink to="/contact" className={({isActive}) => `${isActive && "text-[#EF4030]"}`}>CONTACT</NavLink>
             </li>
           </ul>
         </nav>
@@ -86,16 +86,16 @@ const Header = () => {
         >
           <ul className=" flex flex-col items-center  lg:gap-x-14 md:gap-x-8  gap-8 md:text-[17px] text-[15px] font-[700] text-[#FFFFFF] leading-6">
             <li className="transition-all duration-700 ease-in-out  hover:scale-95 ">
-              <Link to="/">HOME</Link>
+              <NavLink to="/" className={({isActive}) => `${isActive && "text-[#EF4030]"}`}>HOME</NavLink>
             </li>
             <li className="transition-all duration-700 ease-in-out  hover:scale-95 ">
-              <Link to="/about">ABOUT US</Link>
+              <NavLink to="/about" className={({isActive}) => `${isActive && "text-[#EF4030]"}`}>ABOUT US</NavLink>
             </li>
             <li className="transition-all duration-700 ease-in-out  hover:scale-95 ">
-              <Link to="/products">PRODUCTS</Link>
+              <NavLink to="/products" className={({isActive}) => `${isActive && "text-[#EF4030]"}`}>PRODUCTS</NavLink>
             </li>
             <li className="transition-all duration-700 ease-in-out  hover:scale-95 ">
-              <Link to="/contact">CONTACT</Link>
+              <NavLink to="/contact" className={({isActive}) => `${isActive && "text-[#EF4030]"}`}>CONTACT</NavLink>
             </li>
           </ul>
           
