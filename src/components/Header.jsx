@@ -37,7 +37,7 @@ const Header = () => {
             <img
               src={headerLogo}
               alt="Logo"
-              className="py-2 object-cover lg:w-[110px]  lg:h-[120px] md:w-[90px] md:h-[100px] w-[70px] h-[80px]"
+              className="py-2 object-cover lg:w-[110px]  lg:h-[120px] md:w-[90px] md:h-[100px] w-[50px] h-[60px]"
               width={110}
               height={120}
               loading="lazy"
