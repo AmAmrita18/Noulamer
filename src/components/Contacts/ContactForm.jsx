@@ -56,7 +56,7 @@ const ContactForm = () => {
             </div>
           </div>
           <div className="md:w-[56%] w-full flex flex-col  md:gap-y-10 gap-y-4 lg:py-32 md:py-24 py-12 px-12">
-            <div className="flex md:flex-row flex-col gap-x-16 md:gap-y-0 gap-y-5">
+            <div className="flex md:flex-row flex-col gap-x-16 md:gap-y-0 gap-y-4">
               <h1 className="text-[#0A385A] lg:w-[190px] md:w-[230px] w-full border-b border-[#8D8D8D] md:text-[20px] text-[16px] font-[400]">
                 <input
                   type="text"
@@ -76,7 +76,7 @@ const ContactForm = () => {
                 />
               </h1>
             </div>
-            <div className="flex md:flex-row flex-col gap-x-16 md:gap-y-0 gap-y-5">
+            <div className="flex md:flex-row flex-col gap-x-16 md:gap-y-0 gap-y-4">
               <h1 className="text-[#0A385A] lg:w-[190px] md:w-[230px] w-full border-b border-[#8D8D8D] md:text-[20px] text-[16px] font-[400]">
                 <input
                   type="email"
@@ -143,7 +143,7 @@ const ContactForm = () => {
               </div>
             </div>
             <div className="lg:pr-20 pr-0">
-              <h1 className="text-[#0A385A] border-b pb-4 border-[#8D8D8D]  md:text-[20px] text-[16px] font-[500]">
+              <h1 className="text-[#0A385A] border-b md:pb-4 pb-0 border-[#8D8D8D]  md:text-[20px] text-[16px] md:font-[500] font-[400]">
                 <input
                   type="text"
                   id="message"
