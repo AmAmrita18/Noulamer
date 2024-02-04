@@ -22,7 +22,7 @@ const Selection = () => {
 
         
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 lg:gap-y-20 md:gap-y-12 gap-y-6 lg:mt-40 md:mt-24 mt-10">
-          <div className="relative cursor-pointer   transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
+          <div className="relative cursor-pointer  transition-all duration-700 ease-in-out  hover:scale-95  hover:brightness-75">
             <img
               src={product1}
               width={390}
