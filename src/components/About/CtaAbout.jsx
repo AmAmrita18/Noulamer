@@ -6,7 +6,7 @@ import ctaImage from "/Cta.png";
 const CtaAbout = () => {
   return (
     <div
-      className="w-full h-screen "
+      className="w-full h-screen"
       style={{
         backgroundImage: `url('${ctaImage}')`,
         backgroundRepeat: "no-repeat",
@@ -14,12 +14,12 @@ const CtaAbout = () => {
         objectFit: "cover",
       }}
     >
-      <div className="w-[80%] h-full  mx-auto max-w-[1200px] flex flex-col justify-center items-center">
-        <h1 className="text-7xl leading-tight mt-24 text-[#FFFFFF] font-[600]">
+      <div className="w-[80%] h-full mx-auto max-w-[1200px] flex flex-col justify-center items-center">
+        <h1 className="lg:text-7xl md:text-6xl text-5xl leading-tight text-center mt-24 text-[#FFFFFF] font-[600]">
           View our Products
         </h1>
 
-        <Link className="text-[#FFFFFF] bg-[#0A385A] transition-all duration-700 ease-in-out  hover:scale-95 flex items-center gap-3 mt-8 px-8  py-5 rounded-full font-[600] text-[17px]">
+        <Link className="text-[#FFFFFF] bg-[#0A385A] transition-all duration-700 ease-in-out  hover:scale-95   flex items-center gap-3 mt-8 px-8  py-5 rounded-full font-[600] text-[17px]">
           Explore Now <GoArrowRight className="w-6 h-6" />
         </Link>
       </div>
