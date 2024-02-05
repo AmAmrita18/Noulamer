@@ -63,7 +63,7 @@ const Connect = () => {
       }}
     >
       <div className="w-full flex  ">
-        <div className="w-[80%] h-full px-4 md:py-28 py-8 lg:gap-50 md:gap-24 gap-1  mx-auto max-w-[1200px] flex md:flex-row flex-col justify-center items-center">
+        <div className="w-[80%] h-full px-4 md:py-28 py-8 lg:gap-54 md:gap-24 gap-1  mx-auto max-w-[1200px] flex md:flex-row flex-col justify-center items-center">
           <div className="md:w-[45%] w-full flex flex-col justify-center md:gap-6 gap-3">
             <h1 className="lg:text-5xl md:text-4xl text-3xl leading-tight  text-[#FFFFFF] font-[700]">
               Connect with Noulamer
@@ -74,7 +74,7 @@ const Connect = () => {
             </p>
           </div>
           <div className="md:w-[55%] w-full md:px-0 pr-8 md:pt-0 pt-4 flex flex-col md:gap-y-10 gap-y-4">
-            <div className="flex md:flex-row flex-col md:gap-y-0 gap-y-4  gap-x-[1rem]">
+            <div className="flex lg:justify-end md:flex-row flex-col md:gap-y-0 gap-y-4  gap-x-[1rem]">
               <h1 className="text-[#FFFFFF] lg:w-[220px] md:w-[170px] w-full border-b border-[#F2F2F2] lg:text-[20px] md:text-[18px] text-[16px] font-[500]">
                 <input
                   type="text"
@@ -98,7 +98,7 @@ const Connect = () => {
                 />
               </h1>
             </div>
-            <div className="flex md:flex-row flex-col md:gap-y-0 gap-y-4 gap-x-[1rem]">
+            <div className="flex lg:justify-end md:flex-row flex-col md:gap-y-0 gap-y-4 gap-x-[1rem]">
               <h1 className="text-[#FFFFFF] lg:w-[220px] md:w-[170px] w-full border-b border-[#F2F2F2] lg:text-[20px] md:text-[18px] text-[16px] font-[500]">
                 <input
                   type="tel"
@@ -122,7 +122,7 @@ const Connect = () => {
                 />
               </h1>
             </div>
-            <h1 className="text-[#FFFFFF] border-b md:pb-4 pb-0 lg:w-[450px] w-full border-[#F2F2F2] lg:text-[20px] md:text-[18px] text-[16px] font-[500]">
+            <div className="text-[#FFFFFF] flex lg:ml-auto border-b md:pb-4 pb-0 lg:w-[450px] w-full border-[#F2F2F2] lg:text-[20px] md:text-[18px] text-[16px] font-[500]">
               <input
                 type="text"
                 id="message"
@@ -132,10 +132,10 @@ const Connect = () => {
                 placeholder="Message"
                 className="bg-transparent transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#FFFFFF] placeholder:text-opacity-60 outline outline-0 focus:outline-0"
               />
-            </h1>
-            <div className="flex justify-end">
+            </div>
+            <div className="flex justify-end ">
               <button disabled = {disable}
-                onClick={handleSubmit} className="text-[#FFFFFF] disabled:bg-opacity-70 bg-[#0A385A] transition-all duration-700 ease-in-out  hover:scale-95  w-[150px]  flex items-center  gap-3 md:mt-8 mt-3 px-8  py-5 rounded-full font-[600] text-[17px]">
+                onClick={handleSubmit} className="text-[#FFFFFF] disabled:bg-opacity-70 bg-[#0A385A] transition-all duration-700 ease-in-out  hover:scale-95  w-[150px]   flex items-center  gap-3 md:mt-8 mt-3 px-8  py-5 rounded-full font-[600] text-[17px]">
                 Submit <GoArrowRight className="w-6 h-6" />
               </button>
             </div>

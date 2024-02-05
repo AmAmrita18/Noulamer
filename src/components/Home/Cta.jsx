@@ -19,7 +19,7 @@ const Cta = () => {
           View our Products
         </h1>
 
-        <Link className="text-[#FFFFFF] bg-[#0A385A] transition-all duration-700 ease-in-out  hover:scale-95   flex items-center gap-3 mt-8 px-8  py-5 rounded-full font-[600] text-[17px]">
+        <Link to="/products" className="text-[#FFFFFF] bg-[#0A385A] transition-all duration-700 ease-in-out  hover:scale-95   flex items-center gap-3 mt-8 px-8  py-5 rounded-full font-[600] text-[17px]">
           Explore Now <GoArrowRight className="w-6 h-6" />
         </Link>
       </div>

@@ -38,7 +38,7 @@ const Heritage = () => {
                 narratives behind each species we offer{" "}
               </p>
             </div>
-            <Link className="text-[#FFFFFF] bg-[#0A385A] transition-all duration-700 ease-in-out hover:scale-95  flex items-center w-[220px] gap-3 mt-8 px-8 py-5 rounded-full font-[600] md:text-[17px] text-[15px]">
+            <Link to="/about" className="text-[#FFFFFF] bg-[#0A385A] transition-all duration-700 ease-in-out hover:scale-95  flex items-center w-[220px] gap-3 mt-8 px-8 py-5 rounded-full font-[600] md:text-[17px] text-[15px]">
               Read About Us <GoArrowRight className="w-6 h-6" />
             </Link>
           </div>
